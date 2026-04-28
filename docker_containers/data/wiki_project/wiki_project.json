@@ -1,0 +1,2448 @@
+{
+  "https://el.wikipedia.org/wiki/Ελλάδα" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Ελλάδα",
+    "textList" : [ ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "2289_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "2289_image.png",
+      "text" : "Διαδηλώσεις για την οικονομία το 2010 (αριστερά) και το 2011 (δεξιά).",
+      "annotation" : [ "person", "umbrella" ],
+      "userAnnotation" : [ "crowd", "police", "person" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "644_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "644_image.jpg",
+      "text" : "ΑΟΖ της Ελλάδας.",
+      "annotation" : [ "cake" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "642_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "642_image.png",
+      "text" : "Διαδηλώσεις για την οικονομία το 2010 (αριστερά) και το 2011 (δεξιά).",
+      "annotation" : [ "person", "umbrella" ],
+      "userAnnotation" : [ "building" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "641_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "641_image.jpg",
+      "text" : "Στιγμιότυπο από την τελετή λήξης των Ολυμπιακών Αγώνων του 2004.",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ "person", "political party" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "640_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "640_image.png",
+      "text" : "Προεκλογική συγκέντρωση του ΠΑΣΟΚ.",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ "event" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "639_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "639_image.jpg",
+      "text" : "Βρετανοί στρατιώτες στα Δεκεμβριανά του 1944. Στον τοίχο σύνθημα υπέρ του ΚΚΕ.",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "638_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "638_image.jpg",
+      "text" : "Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923).",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "637_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "637_image.jpg",
+      "text" : "Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913).",
+      "annotation" : [ "horse" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "635_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "635_image.jpg",
+      "text" : "Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826.",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "632_image",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "632_image.jpg",
+      "text" : "Η αψίδα του Γαλερίου και η Ροτόντα στη Θεσσαλονίκη.",
+      "annotation" : [ "person", "motorcycle", "handbag" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ {
+      "info" : "merge",
+      "id" : "2346_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "image",
+        "id" : "2289_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "2289_image.png",
+        "text" : "Διαδηλώσεις για την οικονομία το 2010 (αριστερά) και το 2011 (δεξιά).",
+        "annotation" : [ "person", "umbrella" ],
+        "userAnnotation" : [ "crowd", "police", "person" ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "2222_image",
+        "url" : "https://www.uoa.gr",
+        "imagePath" : "2222_image.png",
+        "text" : "ΤΟ ΕΚΠΑ ΣΗΜΕΡΑ",
+        "annotation" : [ ],
+        "userAnnotation" : [ "logo" ],
+        "type" : "image"
+      }, {
+        "info" : "text",
+        "id" : "1440_text",
+        "url" : "https://el.wikipedia.org/wiki/Γερμανία",
+        "imagePath" : "",
+        "text" : "Η Γερμανία, επίσημα Ομοσπονδιακή Δημοκρατία της Γερμανίας ",
+        "annotation" : [ "ORG : Γερμανία", "PERSON : Ομοσπονδιακή Δημοκρατία", "NORP : Γερμανίας" ],
+        "userAnnotation" : [ "country" ],
+        "type" : "text"
+      } ],
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "2289_image.png",
+      "annotation" : [ "NORP : Γερμανίας", "ORG : Γερμανία", "PERSON : Annotation from Image, Ομοσπονδιακή Δημοκρατία", "UMBRELLA : Annotation from Image" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) Διαδηλώσεις για την οικονομία το 2010 (αριστερά) και το 2011 (δεξιά)., 2) ΤΟ ΕΚΠΑ ΣΗΜΕΡΑ, 3) Η Γερμανία, επίσημα Ομοσπονδιακή Δημοκρατία της Γερμανίας , "
+    }, {
+      "info" : "merge",
+      "id" : "2266_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "image",
+        "id" : "642_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "642_image.png",
+        "text" : "Διαδηλώσεις για την οικονομία το 2010 (αριστερά) και το 2011 (δεξιά).",
+        "annotation" : [ "person", "umbrella" ],
+        "userAnnotation" : [ "person" ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "641_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "641_image.jpg",
+        "text" : "Στιγμιότυπο από την τελετή λήξης των Ολυμπιακών Αγώνων του 2004.",
+        "annotation" : [ "person" ],
+        "userAnnotation" : [ "person", "polotical party" ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "640_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "640_image.png",
+        "text" : "Προεκλογική συγκέντρωση του ΠΑΣΟΚ.",
+        "annotation" : [ "person" ],
+        "userAnnotation" : [ "event", "polotical party" ],
+        "type" : "image"
+      } ],
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "642_image.png",
+      "annotation" : [ "PERSON : Annotation from Image, Annotation from Image, Annotation from Image", "UMBRELLA : Annotation from Image" ],
+      "userAnnotation" : [ "police", "political party" ],
+      "type" : "mergeNew",
+      "text" : "1) Διαδηλώσεις για την οικονομία το 2010 (αριστερά) και το 2011 (δεξιά)., 2) Στιγμιότυπο από την τελετή λήξης των Ολυμπιακών Αγώνων του 2004., 3) Προεκλογική συγκέντρωση του ΠΑΣΟΚ., "
+    }, {
+      "info" : "merge",
+      "id" : "2265_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "image",
+        "id" : "641_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "641_image.jpg",
+        "text" : "Στιγμιότυπο από την τελετή λήξης των Ολυμπιακών Αγώνων του 2004.",
+        "annotation" : [ "person" ],
+        "userAnnotation" : [ "person", "polotical party" ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "644_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "644_image.jpg",
+        "text" : "ΑΟΖ της Ελλάδας.",
+        "annotation" : [ "cake" ],
+        "userAnnotation" : [ ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "642_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "642_image.png",
+        "text" : "Διαδηλώσεις για την οικονομία το 2010 (αριστερά) και το 2011 (δεξιά).",
+        "annotation" : [ "person", "umbrella" ],
+        "userAnnotation" : [ "person" ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "640_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "640_image.png",
+        "text" : "Προεκλογική συγκέντρωση του ΠΑΣΟΚ.",
+        "annotation" : [ "person" ],
+        "userAnnotation" : [ "event", "polotical party" ],
+        "type" : "image"
+      } ],
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "641_image.jpg",
+      "annotation" : [ "CAKE : Annotation from Image", "PERSON : Annotation from Image, Annotation from Image, Annotation from Image", "UMBRELLA : Annotation from Image" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) Στιγμιότυπο από την τελετή λήξης των Ολυμπιακών Αγώνων του 2004., 2) ΑΟΖ της Ελλάδας., 3) Διαδηλώσεις για την οικονομία το 2010 (αριστερά) και το 2011 (δεξιά)., 4) Προεκλογική συγκέντρωση του ΠΑΣΟΚ., "
+    }, {
+      "info" : "merge",
+      "id" : "2261_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "merge",
+        "id" : "2251_mergeNew",
+        "baseAnnotationList" : [ {
+          "info" : "image",
+          "id" : "635_image",
+          "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+          "imagePath" : "635_image.jpg",
+          "text" : "Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826.",
+          "annotation" : [ "person" ],
+          "userAnnotation" : [ ],
+          "type" : "image"
+        }, {
+          "info" : "image",
+          "id" : "637_image",
+          "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+          "imagePath" : "637_image.jpg",
+          "text" : "Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913).",
+          "annotation" : [ "horse" ],
+          "userAnnotation" : [ ],
+          "type" : "image"
+        }, {
+          "info" : "image",
+          "id" : "638_image",
+          "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+          "imagePath" : "638_image.jpg",
+          "text" : "Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923).",
+          "annotation" : [ "person" ],
+          "userAnnotation" : [ ],
+          "type" : "image"
+        } ],
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "635_image.jpg",
+        "annotation" : [ "HORSE : Annotation from Image", "PERSON : Annotation from Image, Annotation from Image" ],
+        "userAnnotation" : [ "person" ],
+        "type" : "mergeNew",
+        "text" : "1) Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826., 2) Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913)., 3) Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923)., "
+      }, {
+        "info" : "merge",
+        "id" : "2252_mergeNew",
+        "baseAnnotationList" : [ {
+          "info" : "imageAddText",
+          "id" : "408_imageAddText",
+          "url" : "https://ntua.gr/el/",
+          "imagePath" : "408_imageAddText.jpg",
+          "text" : "Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών",
+          "annotation" : [ "PERSON : προσωπικών υπολογιστών", "ORG : Σχολή Πολιτικών Μηχανικών" ],
+          "userAnnotation" : [ ],
+          "type" : "imageAddText"
+        }, {
+          "info" : "imageAddText",
+          "id" : "407_imageAddText",
+          "url" : "https://ntua.gr/el/",
+          "imagePath" : "407_imageAddText.jpg",
+          "text" : "Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη",
+          "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "PERSON : Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+          "userAnnotation" : [ ],
+          "type" : "imageAddText"
+        } ],
+        "url" : "https://ntua.gr/el/",
+        "imagePath" : "408_imageAddText.jpg",
+        "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "ORG : Σχολή Πολιτικών Μηχανικών", "PERSON : προσωπικών υπολογιστών, Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+        "userAnnotation" : [ ],
+        "type" : "mergeNew",
+        "text" : "1) Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών, 2) Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη, "
+      } ],
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "",
+      "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "HORSE : Annotation from Image", "ORG : Σχολή Πολιτικών Μηχανικών", "PERSON : Annotation from Image, Annotation from Image, προσωπικών υπολογιστών, Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) 1) Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826., 2) Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913)., 3) Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923)., , 2) 1) Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών, 2) Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη, , "
+    }, {
+      "info" : "merge",
+      "id" : "2256_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "merge",
+        "id" : "2253_mergeNew",
+        "baseAnnotationList" : [ {
+          "info" : "imageAddText",
+          "id" : "549_imageAddText",
+          "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+          "imagePath" : "549_imageAddText.jpg",
+          "text" : "Τμήμα χάρτη της Μεσογείου του Άγγλου χαρτογράφου Γουίλιαμ Φέηντεν (1785).",
+          "annotation" : [ "PERSON : Τμήμα", "GPE : Μεσογείου", "ORG : Γουίλιαμ Φέηντεν", "DATE : 1785" ],
+          "userAnnotation" : [ ],
+          "type" : "imageAddText"
+        }, {
+          "info" : "imageAddText",
+          "id" : "547_imageAddText",
+          "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+          "imagePath" : "547_imageAddText.png",
+          "text" : "Τοποθεσία της χώρας στον κόσμο",
+          "annotation" : [ "GPE : Τοποθεσία" ],
+          "userAnnotation" : [ ],
+          "type" : "imageAddText"
+        }, {
+          "info" : "text",
+          "id" : "0_text",
+          "url" : "https://ntua.gr/el/",
+          "imagePath" : "",
+          "text" : " ΕΜΠ στα QS World University Rankings by Subject 2026 ΜΑΡ 26",
+          "annotation" : [ "ORG : ΕΜΠ στα QS World University Rankings, ΜΑΡ", "CARDINAL : 26" ],
+          "userAnnotation" : [ "event" ],
+          "type" : "text"
+        } ],
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "549_imageAddText.jpg",
+        "annotation" : [ "CARDINAL : 26", "DATE : 1785", "GPE : Μεσογείου, Τοποθεσία", "ORG : Γουίλιαμ Φέηντεν, ΕΜΠ στα QS World University Rankings, ΜΑΡ", "PERSON : Τμήμα" ],
+        "userAnnotation" : [ ],
+        "type" : "mergeNew",
+        "text" : "1) Τμήμα χάρτη της Μεσογείου του Άγγλου χαρτογράφου Γουίλιαμ Φέηντεν (1785)., 2) Τοποθεσία της χώρας στον κόσμο, 3)  ΕΜΠ στα QS World University Rankings by Subject 2026 ΜΑΡ 26, "
+      }, {
+        "info" : "merge",
+        "id" : "2252_mergeNew",
+        "baseAnnotationList" : [ {
+          "info" : "imageAddText",
+          "id" : "408_imageAddText",
+          "url" : "https://ntua.gr/el/",
+          "imagePath" : "408_imageAddText.jpg",
+          "text" : "Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών",
+          "annotation" : [ "PERSON : προσωπικών υπολογιστών", "ORG : Σχολή Πολιτικών Μηχανικών" ],
+          "userAnnotation" : [ ],
+          "type" : "imageAddText"
+        }, {
+          "info" : "imageAddText",
+          "id" : "407_imageAddText",
+          "url" : "https://ntua.gr/el/",
+          "imagePath" : "407_imageAddText.jpg",
+          "text" : "Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη",
+          "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "PERSON : Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+          "userAnnotation" : [ ],
+          "type" : "imageAddText"
+        } ],
+        "url" : "https://ntua.gr/el/",
+        "imagePath" : "408_imageAddText.jpg",
+        "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "ORG : Σχολή Πολιτικών Μηχανικών", "PERSON : προσωπικών υπολογιστών, Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+        "userAnnotation" : [ ],
+        "type" : "mergeNew",
+        "text" : "1) Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών, 2) Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη, "
+      } ],
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "",
+      "annotation" : [ "CARDINAL : 26", "DATE : 1785", "GPE : Μεσογείου, Τοποθεσία, Μνημόνιο, Συνεργασίας", "ORG : Γουίλιαμ Φέηντεν, ΕΜΠ στα QS World University Rankings, ΜΑΡ, Σχολή Πολιτικών Μηχανικών", "PERSON : Τμήμα, προσωπικών υπολογιστών, Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) 1) Τμήμα χάρτη της Μεσογείου του Άγγλου χαρτογράφου Γουίλιαμ Φέηντεν (1785)., 2) Τοποθεσία της χώρας στον κόσμο, 3)  ΕΜΠ στα QS World University Rankings by Subject 2026 ΜΑΡ 26, , 2) 1) Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών, 2) Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη, , "
+    }, {
+      "info" : "merge",
+      "id" : "2253_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "imageAddText",
+        "id" : "549_imageAddText",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "549_imageAddText.jpg",
+        "text" : "Τμήμα χάρτη της Μεσογείου του Άγγλου χαρτογράφου Γουίλιαμ Φέηντεν (1785).",
+        "annotation" : [ "PERSON : Τμήμα", "GPE : Μεσογείου", "ORG : Γουίλιαμ Φέηντεν", "DATE : 1785" ],
+        "userAnnotation" : [ ],
+        "type" : "imageAddText"
+      }, {
+        "info" : "imageAddText",
+        "id" : "547_imageAddText",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "547_imageAddText.png",
+        "text" : "Τοποθεσία της χώρας στον κόσμο",
+        "annotation" : [ "GPE : Τοποθεσία" ],
+        "userAnnotation" : [ ],
+        "type" : "imageAddText"
+      }, {
+        "info" : "text",
+        "id" : "0_text",
+        "url" : "https://ntua.gr/el/",
+        "imagePath" : "",
+        "text" : " ΕΜΠ στα QS World University Rankings by Subject 2026 ΜΑΡ 26",
+        "annotation" : [ "ORG : ΕΜΠ στα QS World University Rankings, ΜΑΡ", "CARDINAL : 26" ],
+        "userAnnotation" : [ "event" ],
+        "type" : "text"
+      } ],
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "549_imageAddText.jpg",
+      "annotation" : [ "CARDINAL : 26", "DATE : 1785", "GPE : Μεσογείου, Τοποθεσία", "ORG : Γουίλιαμ Φέηντεν, ΕΜΠ στα QS World University Rankings, ΜΑΡ", "PERSON : Τμήμα" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) Τμήμα χάρτη της Μεσογείου του Άγγλου χαρτογράφου Γουίλιαμ Φέηντεν (1785)., 2) Τοποθεσία της χώρας στον κόσμο, 3)  ΕΜΠ στα QS World University Rankings by Subject 2026 ΜΑΡ 26, "
+    }, {
+      "info" : "merge",
+      "id" : "2251_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "image",
+        "id" : "635_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "635_image.jpg",
+        "text" : "Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826.",
+        "annotation" : [ "person" ],
+        "userAnnotation" : [ ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "637_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "637_image.jpg",
+        "text" : "Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913).",
+        "annotation" : [ "horse" ],
+        "userAnnotation" : [ ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "638_image",
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "638_image.jpg",
+        "text" : "Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923).",
+        "annotation" : [ "person" ],
+        "userAnnotation" : [ ],
+        "type" : "image"
+      } ],
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "635_image.jpg",
+      "annotation" : [ "HORSE : Annotation from Image", "PERSON : Annotation from Image, Annotation from Image" ],
+      "userAnnotation" : [ "person" ],
+      "type" : "mergeNew",
+      "text" : "1) Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826., 2) Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913)., 3) Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923)., "
+    } ],
+    "imageAddTextList" : [ {
+      "info" : "imageAddText",
+      "id" : "550_imageAddText",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "550_imageAddText.jpg",
+      "text" : "Ο αρχαιολογικός χώρος της Πολιόχνης της Λήμνου.",
+      "annotation" : [ "PERSON : Πολιόχνης" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "549_imageAddText",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "549_imageAddText.jpg",
+      "text" : "Τμήμα χάρτη της Μεσογείου του Άγγλου χαρτογράφου Γουίλιαμ Φέηντεν (1785).",
+      "annotation" : [ "PERSON : Τμήμα", "GPE : Μεσογείου", "ORG : Γουίλιαμ Φέηντεν", "DATE : 1785" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "547_imageAddText",
+      "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+      "imagePath" : "547_imageAddText.png",
+      "text" : "Τοποθεσία της χώρας στον κόσμο",
+      "annotation" : [ "GPE : Τοποθεσία" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    } ]
+  },
+  "https://el.wikipedia.org/wiki/Ρουμανία" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Ρουμανία",
+    "textList" : [ ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "4096_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρουμανία",
+      "imagePath" : "4096_image.jpg",
+      "text" : "Η Ρουμανία έγινε μέλος της Ευρωπαϊκής Ένωσης το 2007 και υπέγραψε τη Συνθήκη της Λισσαβώνας",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4094_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρουμανία",
+      "imagePath" : "4094_image.jpg",
+      "text" : "Η Ρουμανία γνώρισε τις μεγαλύτερες αντικυβερνητικές διαδηλώσεις στην ιστορία της το πρώτο εξάμηνο του 2017",
+      "annotation" : [ "kite", "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4093_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρουμανία",
+      "imagePath" : "4093_image.jpg",
+      "text" : "Ο Νικολάε Τσαουσέσκου κυβέρνησε τη Ρουμανία ως δικτάτορας από το 1965 έως το 1989",
+      "annotation" : [ "person", "tie" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4092_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρουμανία",
+      "imagePath" : "4092_image.jpg",
+      "text" : "Ο Γκέοργκε Γκεοργκίου-Ντεζ ήταν ο κομμουνιστής ηγέτης από το 1947 μέχρι τον θάνατό του το 1965",
+      "annotation" : [ "person", "tie" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4089_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρουμανία",
+      "imagePath" : "4089_image.jpg",
+      "text" : "Ο Ρουμάνος δικτάτορας Ιόν Αντονέσκου σε συνάντηση με τον Αδόλφο Χίτλερ τον Ιούνιο του 1941",
+      "annotation" : [ ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4082_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρουμανία",
+      "imagePath" : "4082_image.jpg",
+      "text" : "Ο Μιχαήλ ο Γενναίος, που ένωσε τα τρία πριγκιπάτα για μια σύντομη περίοδο",
+      "annotation" : [ "person", "horse" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ ]
+  },
+  "https://www.auth.gr/en" : {
+    "pageUrl" : "https://www.auth.gr/en",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "4360_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : " “In Situ and Operando Electron Microscopy:",
+      "annotation" : [ "DATE: Situ", "ORGANIZATION: Operando Electron Microscopy" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "4359_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "International History Education Faculties & Schools Undergraduate Studies Postgraduate Studies e-",
+      "annotation" : [ "ORGANIZATION: International History Education Faculties & Schools" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "4358_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "April 2026 Saturday, 25 April 2026",
+      "annotation" : [ "DATE: April 2026 Saturday, 25 April 2026" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "4357_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "Aristotelian Readings)",
+      "annotation" : [ ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    } ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "5022_image",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "5022_image.jpg",
+      "text" : "",
+      "annotation" : [ "", "building", "date" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "5021_image",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "5021_image.jpg",
+      "text" : "",
+      "annotation" : [ "", "beatch", "building" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "49_image",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "49_image.jpg",
+      "text" : "",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "48_image",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "48_image.jpg",
+      "text" : "",
+      "annotation" : [ "person", "laptop", "cup" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "5070_image",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "5070_image.jpg",
+      "text" : "",
+      "annotation" : [ "desk", "office", "book" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "5071_image",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "5071_image.jpg",
+      "text" : "",
+      "annotation" : [ "television", "library", "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ ]
+  },
+  "https://el.wikipedia.org/wiki/Γαλλία" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Γαλλία",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "5025_text",
+      "url" : "https://el.wikipedia.org/wiki/Γαλλία",
+      "imagePath" : "",
+      "text" : " Η Γαλλία (γαλλικά: France‎‎ [α]), επίσημα Γαλλική Δημοκρατία[β], είναι κράτος της Ευρώπης",
+      "annotation" : [ "ORG : Γαλλική Δημοκρατία[β", "GPE : είναι κράτος" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    } ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "4343_image",
+      "url" : "https://el.wikipedia.org/wiki/Γαλλία",
+      "imagePath" : "4343_image.jpg",
+      "text" : "",
+      "annotation" : [ "airport" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4342_image",
+      "url" : "https://el.wikipedia.org/wiki/Γαλλία",
+      "imagePath" : "4342_image.jpg",
+      "text" : "",
+      "annotation" : [ "train" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4336_image",
+      "url" : "https://el.wikipedia.org/wiki/Γαλλία",
+      "imagePath" : "4336_image.jpg",
+      "text" : "Maison Carrée temple in Nemausus Corinthian columns and portico",
+      "annotation" : [ "building", "ancient temple" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4235_image",
+      "url" : "https://el.wikipedia.org/wiki/Γαλλία",
+      "imagePath" : "4235_image.jpg",
+      "text" : "Η Κατάληψη της Βαστίλης",
+      "annotation" : [ "building" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4232_image",
+      "url" : "https://el.wikipedia.org/wiki/Γαλλία",
+      "imagePath" : "4232_image.jpg",
+      "text" : "Το Μαιζόν Καρέ ήταν ναός της Γαλλο-Ρωμαϊκής πόλης Νεμαυσός (σημερινή Νιμ) και είναι ένα από τα καλύτερα διατηρημένα κτίρια της Ρωμαϊκής Αυτοκρατορίας.",
+      "annotation" : [ "building" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ ]
+  },
+  "https://www.ox.ac.uk" : {
+    "pageUrl" : "https://www.ox.ac.uk",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "6_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : " Apr, 2.00–4.00pm",
+      "annotation" : [ "ORG : 2.00–4.00pm" ],
+      "userAnnotation" : [ "date" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "5_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : " CHOOSING YOUR UNDERGRADUATE COURSE ",
+      "annotation" : [ ],
+      "userAnnotation" : [ "study" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "4_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "ADMISSIONS RESEARCH NEWS & EVENTS ABOUT Staff Oxford",
+      "annotation" : [ "ORG : ADMISSIONS RESEARCH NEWS &, Oxford" ],
+      "userAnnotation" : [ "event" ],
+      "type" : "text"
+    } ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "463_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "463_image.jpg",
+      "text" : "Group of current student in quad",
+      "annotation" : [ "person", "handbag", "bench" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "462_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "462_image.jpg",
+      "text" : "Adult students in a seminar",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "461_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "461_image.jpg",
+      "text" : "Grad students 2",
+      "annotation" : [ "person", "handbag" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "460_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "460_image.jpg",
+      "text" : "Undergrad students 3",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "459_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "459_image.jpg",
+      "text" : "Oxplore time travel",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "458_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "458_image.jpg",
+      "text" : "podcast after the end",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "457_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "457_image.jpg",
+      "text" : "Mr Pickwick in breeches",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "456_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "456_image.jpg",
+      "text" : "Irene Tracey",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "455_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "455_image.jpg",
+      "text" : "Hand in wheat grass",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "454_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "454_image.jpg",
+      "text" : "Kids in a museum",
+      "annotation" : [ "person", "frisbee" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "453_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "453_image.jpg",
+      "text" : "Illustration of the gout",
+      "annotation" : [ "elephant" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "451_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "451_image.jpg",
+      "text" : "Chris Mitchell",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "450_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "450_image.jpg",
+      "text" : "F1 car speeding by",
+      "annotation" : [ "truck" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "449_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "449_image.jpg",
+      "text" : "Sperm",
+      "annotation" : [ "kite", "scissors" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "447_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "447_image.jpg",
+      "text" : "Teenagers on mobile phones. Credit: Drazen Zigic, Getty Images",
+      "annotation" : [ "person", "cell phone" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "445_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "445_image.png",
+      "text" : "A robot holding up an old fashioned constitution document in a US Congress-style chamber",
+      "annotation" : [ "person", "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "444_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "444_image.jpg",
+      "text" : "Smelling orchids",
+      "annotation" : [ "person", "teddy bear" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "443_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "443_image.jpg",
+      "text" : "Woman student in a library",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "442_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "442_image.jpg",
+      "text" : "Radcliffe Camera through an arch",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "293_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "293_image.jpg",
+      "text" : "Group of current student in quad",
+      "annotation" : [ "person", "handbag", "bench" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "292_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "292_image.jpg",
+      "text" : "Adult students in a seminar",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "290_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "290_image.jpg",
+      "text" : "Undergrad students 3",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "289_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "289_image.jpg",
+      "text" : "Oxplore time travel",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "288_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "288_image.jpg",
+      "text" : "podcast after the end",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "287_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "287_image.jpg",
+      "text" : "Mr Pickwick in breeches",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "286_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "286_image.jpg",
+      "text" : "Irene Tracey",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "285_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "285_image.jpg",
+      "text" : "Hand in wheat grass",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "284_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "284_image.jpg",
+      "text" : "Kids in a museum",
+      "annotation" : [ "person", "frisbee" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "283_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "283_image.jpg",
+      "text" : "Illustration of the gout",
+      "annotation" : [ "elephant" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "281_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "281_image.jpg",
+      "text" : "Chris Mitchell",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "280_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "280_image.jpg",
+      "text" : "F1 car speeding by",
+      "annotation" : [ "truck" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "279_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "279_image.jpg",
+      "text" : "Sperm",
+      "annotation" : [ "kite", "scissors" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "277_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "277_image.jpg",
+      "text" : "Teenagers on mobile phones. Credit: Drazen Zigic, Getty Images",
+      "annotation" : [ "person", "cell phone" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "275_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "275_image.png",
+      "text" : "A robot holding up an old fashioned constitution document in a US Congress-style chamber",
+      "annotation" : [ "person", "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "274_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "274_image.jpg",
+      "text" : "Smelling orchids",
+      "annotation" : [ "person", "teddy bear" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "273_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "273_image.jpg",
+      "text" : "Woman student in a library",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "272_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "272_image.jpg",
+      "text" : "Radcliffe Camera through an arch",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "157_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "157_image.jpg",
+      "text" : "Oxplore time travel",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "156_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "156_image.jpg",
+      "text" : "podcast after the end",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "155_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "155_image.jpg",
+      "text" : "Mr Pickwick in breeches",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "154_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "154_image.jpg",
+      "text" : "Irene Tracey",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "153_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "153_image.jpg",
+      "text" : "Hand in wheat grass",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "152_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "152_image.jpg",
+      "text" : "Kids in a museum",
+      "annotation" : [ "person", "frisbee" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "151_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "151_image.jpg",
+      "text" : "Illustration of the gout",
+      "annotation" : [ "elephant" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "148_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "148_image.jpg",
+      "text" : "F1 car speeding by",
+      "annotation" : [ "truck" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "147_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "147_image.jpg",
+      "text" : "Sperm",
+      "annotation" : [ "kite", "scissors" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "131_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "131_image.jpg",
+      "text" : "Hand in wheat grass",
+      "annotation" : [ ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "130_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "130_image.jpg",
+      "text" : "Kids in a museum",
+      "annotation" : [ ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "129_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "129_image.jpg",
+      "text" : "Illustration of the gout",
+      "annotation" : [ "elephant" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "127_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "127_image.jpg",
+      "text" : "Chris Mitchell",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "126_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "126_image.jpg",
+      "text" : "F1 car speeding by",
+      "annotation" : [ "truck" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "125_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "125_image.jpg",
+      "text" : "Sperm",
+      "annotation" : [ "kite", "scissors" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "123_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "123_image.jpg",
+      "text" : "Teenagers on mobile phones. Credit: Drazen Zigic, Getty Images",
+      "annotation" : [ "person", "cell phone" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "121_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "121_image.png",
+      "text" : "A robot holding up an old fashioned constitution document in a US Congress-style chamber",
+      "annotation" : [ "person", "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "99_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "99_image.png",
+      "text" : "A robot holding up an old fashioned constitution document in a US Congress-style chamber",
+      "annotation" : [ "person", "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "98_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "98_image.jpg",
+      "text" : "Smelling orchids",
+      "annotation" : [ "person", "teddy bear" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "75_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "75_image.jpg",
+      "text" : "Woman student in a library",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ "library" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "74_image",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "74_image.jpg",
+      "text" : "Radcliffe Camera through an arch",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ "door" ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ {
+      "info" : "merge",
+      "id" : "2264_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "merge",
+        "id" : "2263_mergeNew",
+        "baseAnnotationList" : [ {
+          "info" : "image",
+          "id" : "131_image",
+          "url" : "https://www.ox.ac.uk",
+          "imagePath" : "131_image.jpg",
+          "text" : "Hand in wheat grass",
+          "annotation" : [ ],
+          "userAnnotation" : [ ],
+          "type" : "image"
+        }, {
+          "info" : "image",
+          "id" : "130_image",
+          "url" : "https://www.ox.ac.uk",
+          "imagePath" : "130_image.jpg",
+          "text" : "Kids in a museum",
+          "annotation" : [ ],
+          "userAnnotation" : [ ],
+          "type" : "image"
+        } ],
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "131_image.jpg",
+        "annotation" : [ ],
+        "userAnnotation" : [ ],
+        "type" : "mergeNew",
+        "text" : "1) Hand in wheat grass, 2) Kids in a museum, "
+      }, {
+        "info" : "merge",
+        "id" : "2261_mergeNew",
+        "baseAnnotationList" : [ {
+          "info" : "merge",
+          "id" : "2251_mergeNew",
+          "baseAnnotationList" : [ {
+            "info" : "image",
+            "id" : "635_image",
+            "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+            "imagePath" : "635_image.jpg",
+            "text" : "Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826.",
+            "annotation" : [ "person" ],
+            "userAnnotation" : [ ],
+            "type" : "image"
+          }, {
+            "info" : "image",
+            "id" : "637_image",
+            "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+            "imagePath" : "637_image.jpg",
+            "text" : "Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913).",
+            "annotation" : [ "horse" ],
+            "userAnnotation" : [ ],
+            "type" : "image"
+          }, {
+            "info" : "image",
+            "id" : "638_image",
+            "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+            "imagePath" : "638_image.jpg",
+            "text" : "Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923).",
+            "annotation" : [ "person" ],
+            "userAnnotation" : [ ],
+            "type" : "image"
+          } ],
+          "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+          "imagePath" : "635_image.jpg",
+          "annotation" : [ "HORSE : Annotation from Image", "PERSON : Annotation from Image, Annotation from Image" ],
+          "userAnnotation" : [ "person" ],
+          "type" : "mergeNew",
+          "text" : "1) Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826., 2) Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913)., 3) Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923)., "
+        }, {
+          "info" : "merge",
+          "id" : "2252_mergeNew",
+          "baseAnnotationList" : [ {
+            "info" : "imageAddText",
+            "id" : "408_imageAddText",
+            "url" : "https://ntua.gr/el/",
+            "imagePath" : "408_imageAddText.jpg",
+            "text" : "Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών",
+            "annotation" : [ "PERSON : προσωπικών υπολογιστών", "ORG : Σχολή Πολιτικών Μηχανικών" ],
+            "userAnnotation" : [ ],
+            "type" : "imageAddText"
+          }, {
+            "info" : "imageAddText",
+            "id" : "407_imageAddText",
+            "url" : "https://ntua.gr/el/",
+            "imagePath" : "407_imageAddText.jpg",
+            "text" : "Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη",
+            "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "PERSON : Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+            "userAnnotation" : [ ],
+            "type" : "imageAddText"
+          } ],
+          "url" : "https://ntua.gr/el/",
+          "imagePath" : "408_imageAddText.jpg",
+          "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "ORG : Σχολή Πολιτικών Μηχανικών", "PERSON : προσωπικών υπολογιστών, Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+          "userAnnotation" : [ ],
+          "type" : "mergeNew",
+          "text" : "1) Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών, 2) Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη, "
+        } ],
+        "url" : "https://el.wikipedia.org/wiki/Ελλάδα",
+        "imagePath" : "",
+        "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "HORSE : Annotation from Image", "ORG : Σχολή Πολιτικών Μηχανικών", "PERSON : Annotation from Image, Annotation from Image, προσωπικών υπολογιστών, Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+        "userAnnotation" : [ ],
+        "type" : "mergeNew",
+        "text" : "1) 1) Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826., 2) Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913)., 3) Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923)., , 2) 1) Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών, 2) Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη, , "
+      } ],
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "HORSE : Annotation from Image", "ORG : Σχολή Πολιτικών Μηχανικών", "PERSON : Annotation from Image, Annotation from Image, προσωπικών υπολογιστών, Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) 1) Hand in wheat grass, 2) Kids in a museum, , 2) 1) 1) Ο Νικολάκης Μητρόπουλος υψώνει τη σημαία της Εταιρείας στα Σάλωνα. Λουί Ντυπρέ, 1826., 2) Ιππήλατο ελληνικό πυροβολικό στη μάχη της Κρέσνας (1913)., 3) Προσφυγόπαιδα, ελληνόπουλα και αρμενόπουλα, στην Αθήνα (1923)., , 2) 1) Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών, 2) Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη, , , "
+    }, {
+      "info" : "merge",
+      "id" : "2263_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "image",
+        "id" : "131_image",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "131_image.jpg",
+        "text" : "Hand in wheat grass",
+        "annotation" : [ ],
+        "userAnnotation" : [ ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "130_image",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "130_image.jpg",
+        "text" : "Kids in a museum",
+        "annotation" : [ ],
+        "userAnnotation" : [ ],
+        "type" : "image"
+      } ],
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "131_image.jpg",
+      "annotation" : [ ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) Hand in wheat grass, 2) Kids in a museum, "
+    } ],
+    "imageAddTextList" : [ {
+      "info" : "imageAddText",
+      "id" : "313_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "313_imageAddText.jpg",
+      "text" : "Grad students 2",
+      "annotation" : [ "CARDINAL : 2" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "312_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "312_imageAddText.jpg",
+      "text" : "Undergrad students 3",
+      "annotation" : [ "CARDINAL : 3" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "308_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "308_imageAddText.jpg",
+      "text" : "Irene Tracey",
+      "annotation" : [ "PERSON : Irene Tracey" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "303_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "303_imageAddText.jpg",
+      "text" : "Chris Mitchell",
+      "annotation" : [ "PERSON : Chris Mitchell" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "302_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "302_imageAddText.jpg",
+      "text" : "F1 car speeding by",
+      "annotation" : [ "GPE : F1" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "301_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "301_imageAddText.jpg",
+      "text" : "Sperm",
+      "annotation" : [ "GPE : Sperm" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "299_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "299_imageAddText.jpg",
+      "text" : "Teenagers on mobile phones. Credit: Drazen Zigic, Getty Images",
+      "annotation" : [ "PERSON : Drazen Zigic, Getty Images" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "298_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "298_imageAddText.jpg",
+      "text" : "The Schwarzman Centre for the Humanities",
+      "annotation" : [ "ORG : The Schwarzman Centre", "NORP : Humanities" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "297_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "297_imageAddText.png",
+      "text" : "A robot holding up an old fashioned constitution document in a US Congress-style chamber",
+      "annotation" : [ "GPE : US", "ORG : Congress" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "294_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "294_imageAddText.jpg",
+      "text" : "Radcliffe Camera through an arch",
+      "annotation" : [ "PERSON : Radcliffe Camera" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    } ]
+  },
+  "https://el.wikipedia.org/wiki/Τσεχία" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Τσεχία",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "2744_text",
+      "url" : "https://el.wikipedia.org/wiki/Τσεχία",
+      "imagePath" : "",
+      "text" : "49°45′00″N 15°44′59″E﻿ / ﻿49.75°N 15.7497°E﻿ / 49.75; 15.7497",
+      "annotation" : [ "CARDINAL : 49, 15.7497" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    } ],
+    "imageList" : [ ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ ]
+  },
+  "https://el.wikipedia.org/wiki/Ισπανία" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Ισπανία",
+    "textList" : [ ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "4208_image",
+      "url" : "https://el.wikipedia.org/wiki/Ισπανία",
+      "imagePath" : "4208_image.jpg",
+      "text" : "Μαδρίτη",
+      "annotation" : [ "building" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ ]
+  },
+  "https://el.wikipedia.org/wiki/Ρωσία" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Ρωσία",
+    "textList" : [ ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "4290_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρωσία",
+      "imagePath" : "4290_image.jpg",
+      "text" : "",
+      "annotation" : [ "car", "truck" ],
+      "userAnnotation" : [ "F1 car" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "3612_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρωσία",
+      "imagePath" : "3612_image.jpg",
+      "text" : "",
+      "annotation" : [ "person", "suitcase" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "3611_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρωσία",
+      "imagePath" : "3611_image.jpg",
+      "text" : "",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "3610_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρωσία",
+      "imagePath" : "3610_image.jpg",
+      "text" : "",
+      "annotation" : [ "vase" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "3609_image",
+      "url" : "https://el.wikipedia.org/wiki/Ρωσία",
+      "imagePath" : "3609_image.jpg",
+      "text" : "",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ ]
+  },
+  "https://ntua.gr/el/" : {
+    "pageUrl" : "https://ntua.gr/el/",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "3_text",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "",
+      "text" : "ΗΛΕΚΤΡΟΛΟΓΟΙ ΜΗΧΑΝΙΚΟΙ & ΜΗΧΑΝΙΚΟΙ ΥΠΟΛΟΓΙΣΤΩΝ ΑΡΧΙΤΕΚΤΟΝΕΣ ΜΗΧΑΝΙΚΟΙ",
+      "annotation" : [ "ORG : ΗΛΕΚΤΡΟΛΟΓΟΙ" ],
+      "userAnnotation" : [ "study", "student" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "2_text",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "",
+      "text" : "ΜΗΧΑΝΟΛΟΓΟΙ ΜΗΧΑΝΙΚΟΙ  ",
+      "annotation" : [ ],
+      "userAnnotation" : [ "student", "study" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "1_text",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "",
+      "text" : "Νο 7/2026",
+      "annotation" : [ "CARDINAL : 7/2026" ],
+      "userAnnotation" : [ "cardinal" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "0_text",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "",
+      "text" : " ΕΜΠ στα QS World University Rankings by Subject 2026 ΜΑΡ 26",
+      "annotation" : [ "ORG : ΕΜΠ στα QS World University Rankings, ΜΑΡ", "CARDINAL : 26" ],
+      "userAnnotation" : [ "event" ],
+      "type" : "text"
+    } ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "373_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "373_image.jpg",
+      "text" : "Χορευτικός Τομέας",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "372_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "372_image.jpg",
+      "text" : "Ομάδα Κρουστών",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "371_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "371_image.jpg",
+      "text" : "Oρχήστρα Eγχόρδων",
+      "annotation" : [ "person", "handbag", "tennis racket" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "370_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "370_image.jpg",
+      "text" : "Χορωδία ΕΜΠ",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "368_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "368_image.jpg",
+      "text" : "Κυλικεία",
+      "annotation" : [ "chair", "person", "dining table" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "367_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "367_image.jpg",
+      "text" : "Εστιατόρια",
+      "annotation" : [ "bowl", "person", "chair" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "365_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "365_image.jpg",
+      "text" : "Εργαστήρια Υπολογιστών",
+      "annotation" : [ "person", "chair" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "359_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "359_image.jpg",
+      "text" : "",
+      "annotation" : [ "boat" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "357_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "357_image.jpg",
+      "text" : "",
+      "annotation" : [ "car" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "353_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "353_image.jpg",
+      "text" : "",
+      "annotation" : [ "airplane" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "351_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "351_image.jpg",
+      "text" : "Ανακοίνωση για τη διεξαγωγή του 2nd BLADES2BUILD Summer School",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "350_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "350_image.jpg",
+      "text" : "Φοιτητική Εκδήλωση EULiST ΕΜΠ, Τετάρτη 25 Φεβρουαρίου",
+      "annotation" : [ "kite" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "349_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "349_image.jpg",
+      "text" : "Ημερίδα του ΔΠΜΣ Επιστήμη Δεδομένων και Μηχανική Μάθηση (ΕΔΕΜΜ), Πέμπτη 26 Φεβρουαρίου 2026",
+      "annotation" : [ "motorcycle" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "348_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "348_image.jpg",
+      "text" : "Ολοκληρώθηκε με επιτυχία ο 2ος Μαραθώνιος Καινοτομίας (Hackathon) του ΕΜΠ",
+      "annotation" : [ "person", "chair", "tie" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "347_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "347_image.jpg",
+      "text" : "«Ανοιχτά Εργαστήρια 2026»: Το Πολυτεχνείο ανοίγει τις πύλες του στην κοινωνία",
+      "annotation" : [ "person", "car" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "346_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "346_image.jpg",
+      "text" : "Εορτασμός της επετείου της 25ης Μαρτίου 1821 στο ΕΜΠ",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "345_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "345_image.jpg",
+      "text" : "Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών",
+      "annotation" : [ "tv", "chair", "laptop" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "344_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "344_image.jpg",
+      "text" : "Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη",
+      "annotation" : [ "person", "tie", "laptop" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "343_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "343_image.jpg",
+      "text" : "Η Πολυτεχνειούπολη γεμίζει παγκάκια",
+      "annotation" : [ "bench" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "342_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "342_image.jpg",
+      "text" : "Αποπεράτωση αποκατάστασης της στέγης του κτιρίου Πλαστικής – Ζωγραφικής στο Ιστορικό Συγκρότημα του ΕΜΠ",
+      "annotation" : [ "umbrella", "car" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "341_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "341_image.jpg",
+      "text" : "«Ανοιχτά Εργαστήρια 2026» – Το Εθνικό Μετσόβιο Πολυτεχνείο άνοιξε τις πύλες του και υποδέχτηκε το κοινό στα εμβληματικά εργαστήριά του που γράφουν το μέλλον της τεχνολογίας",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "338_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "338_image.png",
+      "text" : "Μονάδα Στρατηγικού Σχεδιασμού",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "328_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "328_image.jpg",
+      "text" : "ΓΡΑΦΕΙΟ ΜΕΤΑΦΟΡΑΣ ΤΕΧΝΟΛΟΓΙΑΣ",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "326_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "326_image.jpg",
+      "text" : "E-SHOP Ε.Μ.Π.",
+      "annotation" : [ "clock" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "320_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "320_image.jpg",
+      "text" : "Διδάσκοντας επιστήμη και ήθος: Το Εθνικό Μετσόβιο Πολυτεχνείο αποδίδει την ύψιστη τιμή στο εξέχον μέλος του, Ομότιμο Καθηγητή της Σχολής Πολιτικών Μηχανικών, Θεοδόση Τάσιο",
+      "annotation" : [ "person", "tie" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "318_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "318_image.jpg",
+      "text" : "«Ανοιχτά Εργαστήρια 2026» – Το Εθνικό Μετσόβιο Πολυτεχνείο άνοιξε τις πύλες του και υποδέχτηκε το κοινό στα εμβληματικά εργαστήριά του που γράφουν το μέλλον της τεχνολογίας",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "316_image",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "316_image.jpg",
+      "text" : "ΕΘΝΙΚΟ  ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ",
+      "annotation" : [ ],
+      "userAnnotation" : [ "logo" ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ {
+      "info" : "merge",
+      "id" : "2252_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "imageAddText",
+        "id" : "408_imageAddText",
+        "url" : "https://ntua.gr/el/",
+        "imagePath" : "408_imageAddText.jpg",
+        "text" : "Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών",
+        "annotation" : [ "PERSON : προσωπικών υπολογιστών", "ORG : Σχολή Πολιτικών Μηχανικών" ],
+        "userAnnotation" : [ ],
+        "type" : "imageAddText"
+      }, {
+        "info" : "imageAddText",
+        "id" : "407_imageAddText",
+        "url" : "https://ntua.gr/el/",
+        "imagePath" : "407_imageAddText.jpg",
+        "text" : "Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη",
+        "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "PERSON : Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+        "userAnnotation" : [ ],
+        "type" : "imageAddText"
+      } ],
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "408_imageAddText.jpg",
+      "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "ORG : Σχολή Πολιτικών Μηχανικών", "PERSON : προσωπικών υπολογιστών, Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών, 2) Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη, "
+    } ],
+    "imageAddTextList" : [ {
+      "info" : "imageAddText",
+      "id" : "436_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "436_imageAddText.jpg",
+      "text" : "Χορευτικός Τομέας",
+      "annotation" : [ "PERSON : Χορευτικός Τομέας" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "435_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "435_imageAddText.jpg",
+      "text" : "Ομάδα Κρουστών",
+      "annotation" : [ "PERSON : Ομάδα Κρουστών" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "433_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "433_imageAddText.jpg",
+      "text" : "Χορωδία ΕΜΠ",
+      "annotation" : [ "PERSON : Χορωδία ΕΜΠ" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "431_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "431_imageAddText.jpg",
+      "text" : "Κυλικεία",
+      "annotation" : [ "GPE : Κυλικεία" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "430_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "430_imageAddText.jpg",
+      "text" : "Εστιατόρια",
+      "annotation" : [ "ORG : Εστιατόρια" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "429_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "429_imageAddText.jpg",
+      "text" : "Φοιτητικές Εστίες",
+      "annotation" : [ "PERSON : Φοιτητικές Εστίες" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "428_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "428_imageAddText.jpg",
+      "text" : "Εργαστήρια Υπολογιστών",
+      "annotation" : [ "PERSON : Εργαστήρια Υπολογιστών" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "427_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "427_imageAddText.jpg",
+      "text" : "Κέντρο Υπολογιστών",
+      "annotation" : [ "PERSON : Κέντρο Υπολογιστών" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "425_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "425_imageAddText.jpg",
+      "text" : "Βιβλιοθήκη Πατησίων",
+      "annotation" : [ "PERSON : Βιβλιοθήκη Πατησίων" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "424_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "424_imageAddText.jpg",
+      "text" : "Κεντρική Βιβλιοθήκη",
+      "annotation" : [ "ORG : Κεντρική" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "414_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "414_imageAddText.jpg",
+      "text" : "Ανακοίνωση για τη διεξαγωγή του 2nd BLADES2BUILD Summer School",
+      "annotation" : [ "NORP : Ανακοίνωση", "ORG : διεξαγωγή", "ORDINAL : 2nd" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "413_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "413_imageAddText.jpg",
+      "text" : "Φοιτητική Εκδήλωση EULiST ΕΜΠ, Τετάρτη 25 Φεβρουαρίου",
+      "annotation" : [ "ORG : Φοιτητική Εκδήλωση", "PERSON : Τετάρτη 25", "GPE : Φεβρουαρίου" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "412_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "412_imageAddText.jpg",
+      "text" : "Ημερίδα του ΔΠΜΣ Επιστήμη Δεδομένων και Μηχανική Μάθηση (ΕΔΕΜΜ), Πέμπτη 26 Φεβρουαρίου 2026",
+      "annotation" : [ "PERSON : Μηχανική Μάθηση", "CARDINAL : 26", "DATE : 2026" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "411_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "411_imageAddText.jpg",
+      "text" : "Ολοκληρώθηκε με επιτυχία ο 2ος Μαραθώνιος Καινοτομίας (Hackathon) του ΕΜΠ",
+      "annotation" : [ "GPE : Ολοκληρώθηκε, Hackathon", "ORDINAL : 2ος", "PERSON : Μαραθώνιος Καινοτομίας" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "410_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "410_imageAddText.jpg",
+      "text" : "«Ανοιχτά Εργαστήρια 2026»: Το Πολυτεχνείο ανοίγει τις πύλες του στην κοινωνία",
+      "annotation" : [ "PERSON : Ανοιχτά Εργαστήρια, Το Πολυτεχνείο, τις πύλες", "DATE : 2026" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "409_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "409_imageAddText.jpg",
+      "text" : "Εορτασμός της επετείου της 25ης Μαρτίου 1821 στο ΕΜΠ",
+      "annotation" : [ "CARDINAL : 25ης, 1821" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "408_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "408_imageAddText.jpg",
+      "text" : "Νέο εργαστήριο προσωπικών υπολογιστών στην Σχολή Πολιτικών Μηχανικών",
+      "annotation" : [ "PERSON : προσωπικών υπολογιστών", "ORG : Σχολή Πολιτικών Μηχανικών" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "407_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "407_imageAddText.jpg",
+      "text" : "Μνημόνιο Συνεργασίας και Προγραμματική Σύμβαση με το Υπουργείο Πολιτισμού για τον ψηφιακό πολιτισμό και την Τεχνητή Νοημοσύνη",
+      "annotation" : [ "GPE : Μνημόνιο, Συνεργασίας", "PERSON : Προγραμματική Σύμβαση, Υπουργείο Πολιτισμού, Τεχνητή Νοημοσύνη" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "405_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "405_imageAddText.jpg",
+      "text" : "Αποπεράτωση αποκατάστασης της στέγης του κτιρίου Πλαστικής – Ζωγραφικής στο Ιστορικό Συγκρότημα του ΕΜΠ",
+      "annotation" : [ "PERSON : Αποπεράτωση αποκατάστασης, Ιστορικό Συγκρότημα" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "404_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "404_imageAddText.jpg",
+      "text" : "«Ανοιχτά Εργαστήρια 2026» – Το Εθνικό Μετσόβιο Πολυτεχνείο άνοιξε τις πύλες του και υποδέχτηκε το κοινό στα εμβληματικά εργαστήριά του που γράφουν το μέλλον της τεχνολογίας",
+      "annotation" : [ "PERSON : Ανοιχτά Εργαστήρια 2026, Πολυτεχνείο, τις πύλες, στα εμβληματικά" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "403_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "403_imageAddText.jpg",
+      "text" : "Ενισχυμένη διεθνής παρουσία του ΕΜΠ στα QS World University Rankings by Subject 2026",
+      "annotation" : [ "PERSON : Ενισχυμένη διεθνής παρουσία", "ORG : ΕΜΠ στα QS World University Rankings" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "401_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "401_imageAddText.png",
+      "text" : "Μονάδα Στρατηγικού Σχεδιασμού",
+      "annotation" : [ "ORG : Μονάδα Στρατηγικού Σχεδιασμού" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "400_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "400_imageAddText.png",
+      "text" : "ΚΕΔΙΜΑ ",
+      "annotation" : [ "ORG : ΚΕΔΙΜΑ" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "398_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "398_imageAddText.jpg",
+      "text" : "map.ntua.gr",
+      "annotation" : [ "PERSON : map.ntua.gr" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "397_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "397_imageAddText.jpg",
+      "text" : "Ο Συνήγορος του Φοιτητή",
+      "annotation" : [ "ORG : Ο Συνήγορος του" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "396_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "396_imageAddText.jpg",
+      "text" : "ΕΣΠΑ 2014-2020",
+      "annotation" : [ "ORG : ΕΣΠΑ", "DATE : 2014-2020" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "395_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "395_imageAddText.jpg",
+      "text" : "ΕΣΠΑ 2021-2027",
+      "annotation" : [ "ORG : ΕΣΠΑ", "DATE : 2021-2027" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "394_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "394_imageAddText.jpg",
+      "text" : "EULiST",
+      "annotation" : [ ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "393_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "393_imageAddText.png",
+      "text" : "Κ.Ε.ΔΙ.ΒΙ.Μ. Ε.Μ.Π.",
+      "annotation" : [ "ORG : Κ.Ε.ΔΙ.ΒΙ.Μ. Ε.Μ.Π." ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "392_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "392_imageAddText.jpg",
+      "text" : "Κέντρο Καινοτομίας και Επιχειρηματικότητας ΕΜΠ",
+      "annotation" : [ "PERSON : Κέντρο Καινοτομίας" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "391_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "391_imageAddText.jpg",
+      "text" : "ΓΡΑΦΕΙΟ ΜΕΤΑΦΟΡΑΣ ΤΕΧΝΟΛΟΓΙΑΣ",
+      "annotation" : [ "ORG : ΓΡΑΦΕΙΟ" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "390_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "390_imageAddText.jpg",
+      "text" : "Αειφόρο Εθνικό Μετσόβιο Πολυτεχνείο",
+      "annotation" : [ "ORG : Αειφόρο" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "385_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "385_imageAddText.jpg",
+      "text" : " ",
+      "annotation" : [ "GPE : ΕΜΠ" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "384_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "384_imageAddText.jpg",
+      "text" : "Ψήφισμα του Συμβουλίου Διοίκησης ΕΜΠ για τα γεγονότα κατά τον 3ημερο εορτασμό της 17ης Νοέμβρη 1973",
+      "annotation" : [ "PERSON : Ψήφισμα, τα γεγονότα κατά", "ORG : Συμβουλίου Διοίκησης ΕΜΠ", "CARDINAL : 3ημερο", "DATE : 1973" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "383_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "383_imageAddText.jpg",
+      "text" : "Διδάσκοντας επιστήμη και ήθος: Το Εθνικό Μετσόβιο Πολυτεχνείο αποδίδει την ύψιστη τιμή στο εξέχον μέλος του, Ομότιμο Καθηγητή της Σχολής Πολιτικών Μηχανικών, Θεοδόση Τάσιο",
+      "annotation" : [ "PERSON : Πολυτεχνείο, τιμή στο εξέχον, Ομότιμο Καθηγητή, Σχολής Πολιτικών Μηχανικών", "GPE : Θεοδόση Τάσιο" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "382_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "382_imageAddText.jpg",
+      "text" : "Εθνική πρωτιά για το ΕΜΠ για τρίτη συνεχή χρονιά",
+      "annotation" : [ "GPE : ΕΜΠ" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "381_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "381_imageAddText.jpg",
+      "text" : "«Ανοιχτά Εργαστήρια 2026» – Το Εθνικό Μετσόβιο Πολυτεχνείο άνοιξε τις πύλες του και υποδέχτηκε το κοινό στα εμβληματικά εργαστήριά του που γράφουν το μέλλον της τεχνολογίας",
+      "annotation" : [ "PERSON : Ανοιχτά Εργαστήρια 2026, Πολυτεχνείο, τις πύλες, στα εμβληματικά" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "379_imageAddText",
+      "url" : "https://ntua.gr/el/",
+      "imagePath" : "379_imageAddText.jpg",
+      "text" : "ΕΘΝΙΚΟ  ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ",
+      "annotation" : [ "PERSON : ΕΘΝΙΚΟ  ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    } ]
+  },
+  "https://ntua.gr/en" : {
+    "pageUrl" : "https://ntua.gr/en",
+    "textList" : [ ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "3079_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "3079_image.jpg",
+      "text" : "",
+      "annotation" : [ "airplane" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ {
+      "info" : "imageAddText",
+      "id" : "3141_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "3141_imageAddText.jpg",
+      "text" : "Dance Division",
+      "annotation" : [ "ORG : Dance Division" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "3140_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "3140_imageAddText.jpg",
+      "text" : "Percussion Team",
+      "annotation" : [ "ORG : Percussion Team" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    } ]
+  },
+  "https://www.uoa.gr" : {
+    "pageUrl" : "https://www.uoa.gr",
+    "textList" : [ ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "3153_image",
+      "url" : "https://www.uoa.gr",
+      "imagePath" : "3153_image.jpg",
+      "text" : "Τελετή Ετήσιων Βραβείων Καθηγητών και Καθηγητριών του Πανεπιστημίου Αθηνών",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "2222_image",
+      "url" : "https://www.uoa.gr",
+      "imagePath" : "2222_image.png",
+      "text" : "ΤΟ ΕΚΠΑ ΣΗΜΕΡΑ",
+      "annotation" : [ ],
+      "userAnnotation" : [ "logo" ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ ]
+  },
+  "https://el.wikipedia.org/wiki/Βουλγαρία" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Βουλγαρία",
+    "textList" : [ ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "4730_image",
+      "url" : "https://el.wikipedia.org/wiki/Βουλγαρία",
+      "imagePath" : "4730_image.jpg",
+      "text" : "Τα τείχη του φρουρίου Τσάρεβετς στο Βελίκο Τίρνοβο, πρωτεύουσα της Δεύτερης Αυτοκρατορίας",
+      "annotation" : [ "ancient temple" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4726_image",
+      "url" : "https://el.wikipedia.org/wiki/Βουλγαρία",
+      "imagePath" : "4726_image.jpg",
+      "text" : "Παρθένο δάσος στην Προστατευόμενη Περιοχή Κάμτσια",
+      "annotation" : [ "forest", "river" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "3787_image",
+      "url" : "https://el.wikipedia.org/wiki/Βουλγαρία",
+      "imagePath" : "3787_image.jpg",
+      "text" : "Σόφια, η οικονομική καρδιά της χώρας",
+      "annotation" : [ "building" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "2765_image",
+      "url" : "https://el.wikipedia.org/wiki/Βουλγαρία",
+      "imagePath" : "2765_image.jpg",
+      "text" : "",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ {
+      "info" : "imageAddText",
+      "id" : "3218_imageAddText",
+      "url" : "https://el.wikipedia.org/wiki/Βουλγαρία",
+      "imagePath" : "3218_imageAddText.png",
+      "text" : "Map of the Bulgarian Empire under Ivan Asen II",
+      "annotation" : [ "GPE : the Bulgarian Empire", "PERSON : Ivan Asen II" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    } ]
+  },
+  "https://el.wikipedia.org/wiki/Γερμανία" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Γερμανία",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "1440_text",
+      "url" : "https://el.wikipedia.org/wiki/Γερμανία",
+      "imagePath" : "",
+      "text" : "Η Γερμανία, επίσημα Ομοσπονδιακή Δημοκρατία της Γερμανίας ",
+      "annotation" : [ "ORG : Γερμανία", "PERSON : Ομοσπονδιακή Δημοκρατία", "NORP : Γερμανίας" ],
+      "userAnnotation" : [ "country" ],
+      "type" : "text"
+    } ],
+    "imageList" : [ ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ ]
+  },
+  "https://el.wikipedia.org/wiki/Ολλανδία" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Ολλανδία",
+    "textList" : [ ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "3747_image",
+      "url" : "https://el.wikipedia.org/wiki/Ολλανδία",
+      "imagePath" : "3747_image.jpg",
+      "text" : "Η καθημερινή ζωή κατά τη «χρυσή εποχή» της Ολλανδίας",
+      "annotation" : [ "woman", "man" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ ],
+    "imageAddTextList" : [ ]
+  },
+  "https://el.wikipedia.org/wiki/Ιταλία" : {
+    "pageUrl" : "https://el.wikipedia.org/wiki/Ιταλία",
+    "textList" : [ ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "4266_image",
+      "url" : "https://el.wikipedia.org/wiki/Ιταλία",
+      "imagePath" : "4266_image.jpg",
+      "text" : "Το Ρωμαϊκό Κολοσσαίο",
+      "annotation" : [ "building" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4263_image",
+      "url" : "https://el.wikipedia.org/wiki/Ιταλία",
+      "imagePath" : "4263_image.jpg",
+      "text" : "Η Σοφία Λόρεν το 1955",
+      "annotation" : [ "woman smelling a flower", "woman" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4262_image",
+      "url" : "https://el.wikipedia.org/wiki/Ιταλία",
+      "imagePath" : "4262_image.jpg",
+      "text" : "Ο Μαριάνο Ρουμόρ το 1978",
+      "annotation" : [ "man" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "4261_image",
+      "url" : "https://el.wikipedia.org/wiki/Ιταλία",
+      "imagePath" : "4261_image.jpg",
+      "text" : "Ο Τζουζέπε Σάραγκατ",
+      "annotation" : [ "man" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "2727_image",
+      "url" : "https://el.wikipedia.org/wiki/Ιταλία",
+      "imagePath" : "2727_image.jpg",
+      "text" : "Η Σοφία Λόρεν το 1955",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ "door", "F1 car" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "2725_image",
+      "url" : "https://el.wikipedia.org/wiki/Ιταλία",
+      "imagePath" : "2725_image.jpg",
+      "text" : "Ο Τζουζέπε Σάραγκατ",
+      "annotation" : [ "person", "tie" ],
+      "userAnnotation" : [ "F1 car", "building" ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ {
+      "info" : "merge",
+      "id" : "2743_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "image",
+        "id" : "2727_image",
+        "url" : "https://el.wikipedia.org/wiki/Ιταλία",
+        "imagePath" : "2727_image.jpg",
+        "text" : "Η Σοφία Λόρεν το 1955",
+        "annotation" : [ "person" ],
+        "userAnnotation" : [ "doctor", "door" ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "2725_image",
+        "url" : "https://el.wikipedia.org/wiki/Ιταλία",
+        "imagePath" : "2725_image.jpg",
+        "text" : "Ο Τζουζέπε Σάραγκατ",
+        "annotation" : [ "person", "tie" ],
+        "userAnnotation" : [ "F1 car", "building" ],
+        "type" : "image"
+      } ],
+      "url" : "https://el.wikipedia.org/wiki/Ιταλία",
+      "imagePath" : "2727_image.jpg",
+      "annotation" : [ "PERSON : Annotation from Image, Annotation from Image", "TIE : Annotation from Image" ],
+      "userAnnotation" : [ "crowd", "desk" ],
+      "type" : "mergeNew",
+      "text" : "1) Η Σοφία Λόρεν το 1955, 2) Ο Τζουζέπε Σάραγκατ, "
+    } ],
+    "imageAddTextList" : [ ]
+  }
+}

@@ -1,0 +1,49 @@
+airport
+ancient temple
+beatch
+book
+building
+cardinal
+child
+country
+crowd
+date
+desk
+doctor
+door
+event
+F1 car
+flag
+forest
+hospital
+kids
+kids sleeping
+library
+logo
+man
+medical clinic
+mobile phone
+office
+one
+patient
+people in library
+person
+police
+political party
+postgraduate
+professor
+river
+sea
+solar farm
+student
+study
+table
+teacher
+television
+three
+train
+two
+undergraduate
+woman
+woman reading a book
+woman smelling a flower

@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+numpy
+opencv-python
+Pillow
+spacy
+ultralytics
+ftfy
+tqdm
+regex

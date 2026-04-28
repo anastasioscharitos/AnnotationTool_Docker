@@ -1,0 +1,34 @@
+airoplane
+boat
+building
+child
+competition
+country
+crowd
+date
+desk
+doctor
+education programm
+event
+flag
+hospital
+language
+library
+logo
+man
+medical clinic
+message
+office
+patient
+person
+postgraduate
+professor
+ship
+student
+table
+teacher
+television
+undergraduate
+university
+woman
+worker

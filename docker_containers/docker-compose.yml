@@ -1,0 +1,20 @@
+
+services:
+  python-app:
+    build: ./python-app
+    container_name: python-fastapi
+    
+
+  java-app:
+    
+    build: ./java-app
+    restart: on-failure
+    container_name: java-vaadin
+    depends_on:
+      - python-app
+    environment:
+      - FASTAPI_URL=http://python-app:8000/
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8080:8080"

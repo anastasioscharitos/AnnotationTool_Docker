@@ -1,0 +1,6 @@
+/* Add your styles here */
+
+/*Ομαλή εναλλαγή μεταξύ Dark και Light Mode, η εναλλαγή γίνεται μέσα σε 0.5 sec*/
+html{
+    transition: background-color 0.5s ease;
+}

@@ -1,0 +1,1095 @@
+{
+  "https://www.auth.gr/en" : {
+    "pageUrl" : "https://www.auth.gr/en",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "9_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "Archives - Collections Administration Administrative Bodies Administration Services Internal Regulation Computer Network",
+      "annotation" : [ "ORG : Archives - Collections Administration Administrative Bodies Administration Services Internal Regulation Computer Network" ],
+      "userAnnotation" : [ "education programm" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "8_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : " Centre Research Centres Archaeological Excavation Projects Museums",
+      "annotation" : [ "ORG : Centre Research Centres Archaeological Excavation Projects Museums" ],
+      "userAnnotation" : [ "event" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "7_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "Lifelong Learning Career Services Office Research Research Indicators Research Committee Library ",
+      "annotation" : [ "ORG : Lifelong Learning Career Services Office Research Research Indicators Research Committee" ],
+      "userAnnotation" : [ "event" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "6_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "European Educational Programmes School of Modern Greek Language Centre for Foreign Language Teaching Center for Education",
+      "annotation" : [ "ORG : European Educational Programmes School of Modern Greek Language Centre for Foreign Language Teaching Center for Education" ],
+      "userAnnotation" : [ "education programm" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "5_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "upplement ERASMUS Charter EPICUR",
+      "annotation" : [ ],
+      "userAnnotation" : [ "education programm" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "4_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : " audiovisual.auth The University Vision - Mission - Strategic Objectives Rectorate Authorities Facilities University ",
+      "annotation" : [ "ORG : The University Vision - Mission - Strategic Objectives Rectorate Authorities Facilities University" ],
+      "userAnnotation" : [ "university" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "3_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "UTH NEWS ΗΜΕΡΟΛΟΓΙΟ ΑΠΘ March 2026 Sunday, 22 March 2026",
+      "annotation" : [ "ORG : UTH NEWS ΗΜΕΡΟΛΟΓΙΟ", "DATE : March 2026, Sunday, 22 March 2026" ],
+      "userAnnotation" : [ "university" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "2_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : " Situ and Operando Electron Microscopy: Exploring Real-Time Nanoscale Phenomena”",
+      "annotation" : [ ],
+      "userAnnotation" : [ "event", "education programm" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "1_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "approaches (ATMATEN 2024)» 21 May 2024 Events Webinar",
+      "annotation" : [ "DATE : 2024, 21 May 2024" ],
+      "userAnnotation" : [ "date" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "0_text",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "text" : "International Workshop «From Atoms to Materials with Electron Nanoscopy:",
+      "annotation" : [ ],
+      "userAnnotation" : [ "event", "education programm" ],
+      "type" : "text"
+    } ],
+    "imageList" : [ ],
+    "mergeList" : [ {
+      "info" : "merge",
+      "id" : "325_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "text",
+        "id" : "4_text",
+        "url" : "https://www.auth.gr/en",
+        "imagePath" : "",
+        "text" : " audiovisual.auth The University Vision - Mission - Strategic Objectives Rectorate Authorities Facilities University ",
+        "annotation" : [ "ORG : The University Vision - Mission - Strategic Objectives Rectorate Authorities Facilities University" ],
+        "userAnnotation" : [ "university" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "7_text",
+        "url" : "https://www.auth.gr/en",
+        "imagePath" : "",
+        "text" : "Lifelong Learning Career Services Office Research Research Indicators Research Committee Library ",
+        "annotation" : [ "ORG : Lifelong Learning Career Services Office Research Research Indicators Research Committee" ],
+        "userAnnotation" : [ "event" ],
+        "type" : "text"
+      } ],
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "annotation" : [ "ORG : The University Vision - Mission - Strategic Objectives Rectorate Authorities Facilities University, Lifelong Learning Career Services Office Research Research Indicators Research Committee" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1)  audiovisual.auth The University Vision - Mission - Strategic Objectives Rectorate Authorities Facilities University , 2) Lifelong Learning Career Services Office Research Research Indicators Research Committee Library , "
+    }, {
+      "info" : "merge",
+      "id" : "324_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "text",
+        "id" : "8_text",
+        "url" : "https://www.auth.gr/en",
+        "imagePath" : "",
+        "text" : " Centre Research Centres Archaeological Excavation Projects Museums",
+        "annotation" : [ "ORG : Centre Research Centres Archaeological Excavation Projects Museums" ],
+        "userAnnotation" : [ "event" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "1_text",
+        "url" : "https://www.auth.gr/en",
+        "imagePath" : "",
+        "text" : "approaches (ATMATEN 2024)» 21 May 2024 Events Webinar",
+        "annotation" : [ "DATE : 2024, 21 May 2024" ],
+        "userAnnotation" : [ "date" ],
+        "type" : "text"
+      } ],
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "annotation" : [ "DATE : 2024, 21 May 2024", "ORG : Centre Research Centres Archaeological Excavation Projects Museums" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1)  Centre Research Centres Archaeological Excavation Projects Museums, 2) approaches (ATMATEN 2024)» 21 May 2024 Events Webinar, "
+    }, {
+      "info" : "merge",
+      "id" : "323_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "text",
+        "id" : "3_text",
+        "url" : "https://www.auth.gr/en",
+        "imagePath" : "",
+        "text" : "UTH NEWS ΗΜΕΡΟΛΟΓΙΟ ΑΠΘ March 2026 Sunday, 22 March 2026",
+        "annotation" : [ "ORG : UTH NEWS ΗΜΕΡΟΛΟΓΙΟ", "DATE : March 2026, Sunday, 22 March 2026" ],
+        "userAnnotation" : [ "university" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "6_text",
+        "url" : "https://www.auth.gr/en",
+        "imagePath" : "",
+        "text" : "European Educational Programmes School of Modern Greek Language Centre for Foreign Language Teaching Center for Education",
+        "annotation" : [ "ORG : European Educational Programmes School of Modern Greek Language Centre for Foreign Language Teaching Center for Education" ],
+        "userAnnotation" : [ "education programm" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "9_text",
+        "url" : "https://www.auth.gr/en",
+        "imagePath" : "",
+        "text" : "Archives - Collections Administration Administrative Bodies Administration Services Internal Regulation Computer Network",
+        "annotation" : [ "ORG : Archives - Collections Administration Administrative Bodies Administration Services Internal Regulation Computer Network" ],
+        "userAnnotation" : [ "education programm" ],
+        "type" : "text"
+      } ],
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "",
+      "annotation" : [ "DATE : March 2026, Sunday, 22 March 2026", "ORG : UTH NEWS ΗΜΕΡΟΛΟΓΙΟ, European Educational Programmes School of Modern Greek Language Centre for Foreign Language Teaching Center for Education, Archives - Collections Administration Administrative Bodies Administration Services Internal Regulation Computer Network" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) UTH NEWS ΗΜΕΡΟΛΟΓΙΟ ΑΠΘ March 2026 Sunday, 22 March 2026, 2) European Educational Programmes School of Modern Greek Language Centre for Foreign Language Teaching Center for Education, 3) Archives - Collections Administration Administrative Bodies Administration Services Internal Regulation Computer Network, "
+    } ],
+    "imageAddTextList" : [ {
+      "info" : "imageAddText",
+      "id" : "1776_imageAddText",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "1776_imageAddText.png",
+      "text" : "National Development Program Logo 2021-2025 in Greek",
+      "annotation" : [ "ORGANIZATION: National Development Program Logo", "DURATION: 2021-2025", "NATIONALITY: Greek" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "1775_imageAddText",
+      "url" : "https://www.auth.gr/en",
+      "imagePath" : "1775_imageAddText.png",
+      "text" : "ESPA 2021-2027 Logo",
+      "annotation" : [ "ORGANIZATION: ESPA", "DURATION: 2021-2027" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    } ]
+  },
+  "https://ntua.gr/en" : {
+    "pageUrl" : "https://ntua.gr/en",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "1718_text",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "",
+      "text" : "Center Phone: 210-772-1000 (7:30 am - 15:00 pm)  ",
+      "annotation" : [ "CARDINAL : 210", "TIME : 7:30 am - 15:00 pm" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "1717_text",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "",
+      "text" : "NTUA Central Library Patission Library",
+      "annotation" : [ ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "1716_text",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "",
+      "text" : "MECHANICAL ENGINEERING SCHOOL OF ELECTRICAL & COMPUTER ENGINEERING SCHOOL OF ARCHITECTURE SCHOOL OF CHEMICAL ENGINEERING SCHOOL OF RURAL",
+      "annotation" : [ "ORG : MECHANICAL ENGINEERING SCHOOL OF ELECTRICAL & COMPUTER ENGINEERING SCHOOL OF ARCHITECTURE SCHOOL OF CHEMICAL ENGINEERING SCHOOL OF RURAL" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "1715_text",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "",
+      "text" : "2nd Festival at the Lavrion Technological and Cultural Par",
+      "annotation" : [ "ORG : the Lavrion Technological and Cultural Par" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "1714_text",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "",
+      "text" : ", October 11 & 12, 2025 Main Theme: Presentation",
+      "annotation" : [ "DATE : October 11, 2025" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "821_text",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "",
+      "text" : "2nd Festival at the Lavrion Technological and Cultural Park, October 11 & 12, 2025 ",
+      "annotation" : [ "ORDINAL: 2nd", "ORGANIZATION: Lavrion Technological and Cultural Park", "DATE: October 11", "DATE: & 12,", "DATE: 2025" ],
+      "userAnnotation" : [ "event" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "820_text",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "",
+      "text" : "JAN 22 A Greek",
+      "annotation" : [ "DATE: JAN 22", "NATIONALITY: Greek" ],
+      "userAnnotation" : [ "country" ],
+      "type" : "text"
+    } ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "1739_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "1739_image.jpg",
+      "text" : "",
+      "annotation" : [ "airoplane" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "1730_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "1730_image.jpg",
+      "text" : "A Greek beginning, a global journey: Columbia University and the National Technical University of Athens Create the Next Generation of Global Leaders",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "1726_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "1726_image.jpg",
+      "text" : "Message from NTUA Rector, Professor Ioannis K. Hatjigeorgiou for academic year 2024-2025",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "1723_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "1723_image.jpg",
+      "text" : " ",
+      "annotation" : [ "airoplane", "boat", "building" ],
+      "userAnnotation" : [ "building" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "1722_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "1722_image.jpg",
+      "text" : "ΕΘΝΙΚΟ  ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ",
+      "annotation" : [ "airoplane", "boat", "building" ],
+      "userAnnotation" : [ "logo" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "1672_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "1672_image.jpg",
+      "text" : "ΕΘΝΙΚΟ  ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ",
+      "annotation" : [ ],
+      "userAnnotation" : [ "logo" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "1588_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "1588_image.jpg",
+      "text" : "Message from NTUA Rector, Professor Ioannis K. Hatjigeorgiou for academic year 2024-2025",
+      "annotation" : [ "person", "refrigerator" ],
+      "userAnnotation" : [ "professor", "teacher", "person" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "827_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "827_image.jpg",
+      "text" : "Message from NTUA Rector, Professor Ioannis K. Hatjigeorgiou for academic year 2024-2025",
+      "annotation" : [ "person", "refrigerator" ],
+      "userAnnotation" : [ ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "758_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "758_image.jpg",
+      "text" : "Central Library",
+      "annotation" : [ ],
+      "userAnnotation" : [ "building", "library" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "398_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "398_image.jpg",
+      "text" : " ",
+      "annotation" : [ ],
+      "userAnnotation" : [ "building" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "397_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "397_image.jpg",
+      "text" : "ΕΘΝΙΚΟ  ΜΕΤΣΟΒΙΟ ΠΟΛΥΤΕΧΝΕΙΟ",
+      "annotation" : [ ],
+      "userAnnotation" : [ "logo" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "169_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "169_image.jpg",
+      "text" : " ",
+      "annotation" : [ ],
+      "userAnnotation" : [ "building" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "95_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "95_image.jpg",
+      "text" : "Strategic Collaboration between the National Technical University of Athens and ΕΛΚΕΜΕ, the R&amp;D Center of Viohalco Companies",
+      "annotation" : [ "person", "tie" ],
+      "userAnnotation" : [ "education programm", "doctor", "person" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "94_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "94_image.jpg",
+      "text" : "Informational Event on the Prevention and Management of Natural Disasters",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ "event", "hospital", "medical clinic", "person" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "92_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "92_image.jpg",
+      "text" : "A Greek beginning, a global journey: Columbia University and the National Technical University of Athens Create the Next Generation of Global Leaders",
+      "annotation" : [ "person", "tv" ],
+      "userAnnotation" : [ "doctor", "education programm", "event", "person", "postgraduate" ],
+      "type" : "image"
+    }, {
+      "info" : "image",
+      "id" : "88_image",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "88_image.jpg",
+      "text" : "Message from NTUA Rector, Professor Ioannis K. Hatjigeorgiou for academic year 2024-2025",
+      "annotation" : [ "person", "refrigerator" ],
+      "userAnnotation" : [ "event", "man", "person" ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ {
+      "info" : "merge",
+      "id" : "822_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "text",
+        "id" : "821_text",
+        "url" : "https://ntua.gr/en",
+        "imagePath" : "",
+        "text" : "2nd Festival at the Lavrion Technological and Cultural Park, October 11 & 12, 2025 ",
+        "annotation" : [ "ORDINAL: 2nd", "ORGANIZATION: Lavrion Technological and Cultural Park", "DATE: October 11", "DATE: & 12,", "DATE: 2025" ],
+        "userAnnotation" : [ "event" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "820_text",
+        "url" : "https://ntua.gr/en",
+        "imagePath" : "",
+        "text" : "JAN 22 A Greek",
+        "annotation" : [ "DATE: JAN 22", "NATIONALITY: Greek" ],
+        "userAnnotation" : [ "country" ],
+        "type" : "text"
+      } ],
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "",
+      "annotation" : [ "DATE : October 11, & 12,, 2025, JAN 22", "NATIONALITY : Greek", "ORDINAL : 2nd", "ORGANIZATION : Lavrion Technological and Cultural Park" ],
+      "userAnnotation" : [ "date", "event", "flag" ],
+      "type" : "mergeNew",
+      "text" : "1) 2nd Festival at the Lavrion Technological and Cultural Park, October 11 & 12, 2025 , 2) JAN 22 A Greek, "
+    }, {
+      "info" : "merge",
+      "id" : "327_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "image",
+        "id" : "92_image",
+        "url" : "https://ntua.gr/en",
+        "imagePath" : "92_image.jpg",
+        "text" : "A Greek beginning, a global journey: Columbia University and the National Technical University of Athens Create the Next Generation of Global Leaders",
+        "annotation" : [ "person", "tv" ],
+        "userAnnotation" : [ "doctor", "education programm", "event", "person", "postgraduate" ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "88_image",
+        "url" : "https://ntua.gr/en",
+        "imagePath" : "88_image.jpg",
+        "text" : "Message from NTUA Rector, Professor Ioannis K. Hatjigeorgiou for academic year 2024-2025",
+        "annotation" : [ "person", "refrigerator" ],
+        "userAnnotation" : [ "event", "man", "person" ],
+        "type" : "image"
+      } ],
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "92_image.jpg",
+      "annotation" : [ "PERSON : Annotation from Image, Annotation from Image", "REFRIGERATOR : Annotation from Image", "TV : Annotation from Image" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) A Greek beginning, a global journey: Columbia University and the National Technical University of Athens Create the Next Generation of Global Leaders, 2) Message from NTUA Rector, Professor Ioannis K. Hatjigeorgiou for academic year 2024-2025, "
+    }, {
+      "info" : "merge",
+      "id" : "326_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "image",
+        "id" : "95_image",
+        "url" : "https://ntua.gr/en",
+        "imagePath" : "95_image.jpg",
+        "text" : "Strategic Collaboration between the National Technical University of Athens and ΕΛΚΕΜΕ, the R&amp;D Center of Viohalco Companies",
+        "annotation" : [ "person", "tie" ],
+        "userAnnotation" : [ "education programm", "doctor", "person" ],
+        "type" : "image"
+      }, {
+        "info" : "image",
+        "id" : "94_image",
+        "url" : "https://ntua.gr/en",
+        "imagePath" : "94_image.jpg",
+        "text" : "Informational Event on the Prevention and Management of Natural Disasters",
+        "annotation" : [ "person" ],
+        "userAnnotation" : [ "event", "hospital", "medical clinic", "person" ],
+        "type" : "image"
+      } ],
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "95_image.jpg",
+      "annotation" : [ "PERSON : Annotation from Image, Annotation from Image", "TIE : Annotation from Image" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) Strategic Collaboration between the National Technical University of Athens and ΕΛΚΕΜΕ, the R&amp;D Center of Viohalco Companies, 2) Informational Event on the Prevention and Management of Natural Disasters, "
+    } ],
+    "imageAddTextList" : [ {
+      "info" : "imageAddText",
+      "id" : "892_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "892_imageAddText.jpg",
+      "text" : "NTUA Press",
+      "annotation" : [ "ORGANIZATION: NTUA Press" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "880_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "880_imageAddText.jpg",
+      "text" : "Distinctions of The National Technical University of Athens (N.T.U.A.) in the European Universities Championships (EUSA Championships) 2025",
+      "annotation" : [ "ORGANIZATION: National Technical University of Athens", "NATIONALITY: European", "MISC: Universities Championships", "MISC: EUSA Championships", "DATE: 2025" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "879_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "879_imageAddText.jpg",
+      "text" : "The Park and the City: 2nd Festival at the Lavrion Technological and Cultural Park, October 11 &amp; 12, 2025 Main Theme: Presentation of the project “Decontamination and Restoration of the ‘Konofagos’ Building”",
+      "annotation" : [ "ORDINAL: 2nd", "LOCATION: Cultural Park", "DATE: October 11", "DATE: &amp; 12,", "DATE: 2025" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "876_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "876_imageAddText.jpg",
+      "text" : "Strategic Collaboration between the National Technical University of Athens and ΕΛΚΕΜΕ, the R&amp;D Center of Viohalco Companies",
+      "annotation" : [ "ORGANIZATION: National Technical University of Athens", "ORGANIZATION: Viohalco Companies" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "875_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "875_imageAddText.jpg",
+      "text" : "Informational Event on the Prevention and Management of Natural Disasters",
+      "annotation" : [ "CAUSE_OF_DEATH: Natural Disasters" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "874_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "874_imageAddText.jpg",
+      "text" : "CALL FOR APPLICATIONS - Collaborative Doctoral Partnership between the NTUA and the Joint Research Centre (JRC) of the European Commission PhD Position: \"Cross-Domain Knowledge Engineering for Crisis Management: A Neurosymbolic Approach\"",
+      "annotation" : [ "ORGANIZATION: NTUA", "ORGANIZATION: Joint Research Centre", "NATIONALITY: European" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "873_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "873_imageAddText.jpg",
+      "text" : "A Greek beginning, a global journey: Columbia University and the National Technical University of Athens Create the Next Generation of Global Leaders",
+      "annotation" : [ "NATIONALITY: Greek", "ORGANIZATION: Columbia University", "ORGANIZATION: National Technical University of Athens Create" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "872_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "872_imageAddText.jpg",
+      "text" : "CALL FOR APPLICATIONS - Collaborative Doctoral Partnership between NTUA and European Commission’s Joint Research Centre (JRC) PhD Position: Knowledge representation and exploration for cross-domain crisis management”",
+      "annotation" : [ "ORGANIZATION: NTUA", "ORGANIZATION: European Commission’s Joint Research Centre" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "869_imageAddText",
+      "url" : "https://ntua.gr/en",
+      "imagePath" : "869_imageAddText.jpg",
+      "text" : "Message from NTUA Rector, Professor Ioannis K. Hatjigeorgiou for academic year 2024-2025",
+      "annotation" : [ "ORGANIZATION: NTUA", "TITLE: Professor", "PERSON: Ioannis K. Hatjigeorgiou", "DURATION: year", "DURATION: 2024-2025" ],
+      "userAnnotation" : [ ],
+      "type" : "imageAddText"
+    } ]
+  },
+  "https://www.ox.ac.uk" : {
+    "pageUrl" : "https://www.ox.ac.uk",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "34_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "r Shurui Miao, an experimental chemist FEATURED PODCAST",
+      "annotation" : [ "PERSON : r Shurui Miao, FEATURED" ],
+      "userAnnotation" : [ "teacher", "professor", "person" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "33_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "alliol College 26 MAR 2026 DISCOVER UNIVERSITY SUPPORT DURING TIMES OF CONFLICT AND CRISIS ",
+      "annotation" : [ "CARDINAL : 26", "ORG : MAR, DISCOVER UNIVERSITY SUPPORT DURING TIMES OF CONFLICT AND CRISIS", "DATE : 2026" ],
+      "userAnnotation" : [ "date" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "32_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : " 20 MAR 2026 Expert Comment",
+      "annotation" : [ "CARDINAL : 20", "ORG : MAR" ],
+      "userAnnotation" : [ "event" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "29_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "ir Lawrence Alma Tadema, 1879, oil on pane",
+      "annotation" : [ "PERSON : ir Lawrence Alma Tadema", "DATE : 1879" ],
+      "userAnnotation" : [ "woman", "teacher", "professor", "person" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "28_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "ome Divisions & departments Colleges Search",
+      "annotation" : [ "ORG : Divisions &, Colleges Search" ],
+      "userAnnotation" : [ "education programm", "undergraduate" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "17_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "Graduate admissions Lifelong learning Lifelong learning Current Oxford students Current Oxford students",
+      "annotation" : [ "PERSON : Lifelong, Lifelong", "ORG : Oxford" ],
+      "userAnnotation" : [ "university" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "16_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "The OUP blog How do you convert CO2 to rock? Featured podcast Oxplore: the Home of Big Questions Studying",
+      "annotation" : [ "ORG : OUP, the Home of Big Questions Studying" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "13_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "oil price surge accelerate the UK’s shift to renewables",
+      "annotation" : [ "GPE : UK" ],
+      "userAnnotation" : [ "country" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "12_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "Mar 2026 Expert Comment: Ethics-washing and Us-washing Expert Comment:",
+      "annotation" : [ "DATE : 2026", "GPE : Us" ],
+      "userAnnotation" : [ "date", "country" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "11_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "ultrasound could help save hedgehogs News Oxford University spinout Dark Blue",
+      "annotation" : [ "ORG : News Oxford University, Dark Blue" ],
+      "userAnnotation" : [ "university" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "10_text",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "text" : "shmolean's In Bloom exhibition opens for spring Fully-funded graduate studentships for entry in 2026/27",
+      "annotation" : [ "CARDINAL : 2026/27" ],
+      "userAnnotation" : [ "date" ],
+      "type" : "text"
+    } ],
+    "imageList" : [ ],
+    "mergeList" : [ {
+      "info" : "merge",
+      "id" : "331_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "imageAddText",
+        "id" : "312_imageAddText",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "312_imageAddText.jpg",
+        "text" : "Grad students 2",
+        "annotation" : [ "CARDINAL : 2" ],
+        "userAnnotation" : [ "postgraduate", "student" ],
+        "type" : "imageAddText"
+      }, {
+        "info" : "imageAddText",
+        "id" : "311_imageAddText",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "311_imageAddText.jpg",
+        "text" : "Undergrad students 3",
+        "annotation" : [ "CARDINAL : 3" ],
+        "userAnnotation" : [ "undergraduate", "student" ],
+        "type" : "imageAddText"
+      }, {
+        "info" : "imageAddText",
+        "id" : "305_imageAddText",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "305_imageAddText.jpg",
+        "text" : "2026 Boat Race crews",
+        "annotation" : [ "DATE : 2026" ],
+        "userAnnotation" : [ "date" ],
+        "type" : "imageAddText"
+      } ],
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "312_imageAddText.jpg",
+      "annotation" : [ "CARDINAL : 2, 3", "DATE : 2026" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) Grad students 2, 2) Undergrad students 3, 3) 2026 Boat Race crews, "
+    }, {
+      "info" : "merge",
+      "id" : "330_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "text",
+        "id" : "17_text",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "",
+        "text" : "Graduate admissions Lifelong learning Lifelong learning Current Oxford students Current Oxford students",
+        "annotation" : [ "PERSON : Lifelong, Lifelong", "ORG : Oxford" ],
+        "userAnnotation" : [ "university" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "12_text",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "",
+        "text" : "Mar 2026 Expert Comment: Ethics-washing and Us-washing Expert Comment:",
+        "annotation" : [ "DATE : 2026", "GPE : Us" ],
+        "userAnnotation" : [ "date", "country" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "34_text",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "",
+        "text" : "r Shurui Miao, an experimental chemist FEATURED PODCAST",
+        "annotation" : [ "PERSON : r Shurui Miao, FEATURED" ],
+        "userAnnotation" : [ "teacher", "professor", "person" ],
+        "type" : "text"
+      } ],
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "annotation" : [ "DATE : 2026", "GPE : Us", "ORG : Oxford", "PERSON : Lifelong, Lifelong, r Shurui Miao, FEATURED" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) Graduate admissions Lifelong learning Lifelong learning Current Oxford students Current Oxford students, 2) Mar 2026 Expert Comment: Ethics-washing and Us-washing Expert Comment:, 3) r Shurui Miao, an experimental chemist FEATURED PODCAST, "
+    }, {
+      "info" : "merge",
+      "id" : "329_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "text",
+        "id" : "17_text",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "",
+        "text" : "Graduate admissions Lifelong learning Lifelong learning Current Oxford students Current Oxford students",
+        "annotation" : [ "PERSON : Lifelong, Lifelong", "ORG : Oxford" ],
+        "userAnnotation" : [ "university" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "12_text",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "",
+        "text" : "Mar 2026 Expert Comment: Ethics-washing and Us-washing Expert Comment:",
+        "annotation" : [ "DATE : 2026", "GPE : Us" ],
+        "userAnnotation" : [ "date", "country" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "34_text",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "",
+        "text" : "r Shurui Miao, an experimental chemist FEATURED PODCAST",
+        "annotation" : [ "PERSON : r Shurui Miao, FEATURED" ],
+        "userAnnotation" : [ "teacher", "professor", "person" ],
+        "type" : "text"
+      } ],
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "annotation" : [ "DATE : 2026", "GPE : Us", "ORG : Oxford", "PERSON : Lifelong, Lifelong, r Shurui Miao, FEATURED" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) Graduate admissions Lifelong learning Lifelong learning Current Oxford students Current Oxford students, 2) Mar 2026 Expert Comment: Ethics-washing and Us-washing Expert Comment:, 3) r Shurui Miao, an experimental chemist FEATURED PODCAST, "
+    }, {
+      "info" : "merge",
+      "id" : "328_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "text",
+        "id" : "13_text",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "",
+        "text" : "oil price surge accelerate the UK’s shift to renewables",
+        "annotation" : [ "GPE : UK" ],
+        "userAnnotation" : [ "country" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "10_text",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "",
+        "text" : "shmolean's In Bloom exhibition opens for spring Fully-funded graduate studentships for entry in 2026/27",
+        "annotation" : [ "CARDINAL : 2026/27" ],
+        "userAnnotation" : [ "date" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "16_text",
+        "url" : "https://www.ox.ac.uk",
+        "imagePath" : "",
+        "text" : "The OUP blog How do you convert CO2 to rock? Featured podcast Oxplore: the Home of Big Questions Studying",
+        "annotation" : [ "ORG : OUP, the Home of Big Questions Studying" ],
+        "userAnnotation" : [ ],
+        "type" : "text"
+      } ],
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "",
+      "annotation" : [ "CARDINAL : 2026/27", "GPE : UK", "ORG : OUP, the Home of Big Questions Studying" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) oil price surge accelerate the UK’s shift to renewables, 2) shmolean's In Bloom exhibition opens for spring Fully-funded graduate studentships for entry in 2026/27, 3) The OUP blog How do you convert CO2 to rock? Featured podcast Oxplore: the Home of Big Questions Studying, "
+    } ],
+    "imageAddTextList" : [ {
+      "info" : "imageAddText",
+      "id" : "312_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "312_imageAddText.jpg",
+      "text" : "Grad students 2",
+      "annotation" : [ "CARDINAL : 2" ],
+      "userAnnotation" : [ "postgraduate", "student" ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "311_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "311_imageAddText.jpg",
+      "text" : "Undergrad students 3",
+      "annotation" : [ "CARDINAL : 3" ],
+      "userAnnotation" : [ "undergraduate", "student" ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "305_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "305_imageAddText.jpg",
+      "text" : "2026 Boat Race crews",
+      "annotation" : [ "DATE : 2026" ],
+      "userAnnotation" : [ "date" ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "301_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "301_imageAddText.jpg",
+      "text" : "Irene Tracey",
+      "annotation" : [ "PERSON : Irene Tracey" ],
+      "userAnnotation" : [ "person", "woman" ],
+      "type" : "imageAddText"
+    }, {
+      "info" : "imageAddText",
+      "id" : "298_imageAddText",
+      "url" : "https://www.ox.ac.uk",
+      "imagePath" : "298_imageAddText.jpg",
+      "text" : "Smiling chatbots concept art. Credit: akinbostanci, Getty Images",
+      "annotation" : [ "PERSON : Getty Images" ],
+      "userAnnotation" : [ "competition" ],
+      "type" : "imageAddText"
+    } ]
+  },
+  "https://en.uoa.gr" : {
+    "pageUrl" : "https://en.uoa.gr",
+    "textList" : [ {
+      "info" : "text",
+      "id" : "1721_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "ASSOCIATION 16/04/2026 - NEWS CALL FOR EXPRESSIONS OF INTEREST FOR THE UNDERGRADUATE PROGRAMMES ",
+      "annotation" : [ "NUMBER: 16/04/2026" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "1720_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "41454 Undergraduate students 25417 Postgraduate Students and Ph.D. Candidates 8255 ",
+      "annotation" : [ "NUMBER: 41454", "NUMBER: 25417", "NUMBER: 8255" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "1719_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : " Copyright © 2026 National and Kapodistrian University of Athens",
+      "annotation" : [ "DATE: 2026", "ORGANIZATION: Kapodistrian University of Athens" ],
+      "userAnnotation" : [ ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "1411_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "History that enlightens Knowledge that evolves.",
+      "annotation" : [ "PERSON : Knowledge" ],
+      "userAnnotation" : [ "airoplane" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "41_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "UNIVERSITY OF ATHENS:",
+      "annotation" : [ "ORG : UNIVERSITY OF ATHENS" ],
+      "userAnnotation" : [ "university" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "27_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "ster Programs in English Summer Schools Modern Greek Language",
+      "annotation" : [ "PERSON : Programs", "LANGUAGE : English" ],
+      "userAnnotation" : [ "education programm", "language" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "25_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "UNIVERSITY RESEARCH INSTITUTES MUSEUMS ",
+      "annotation" : [ "ORG : UNIVERSITY RESEARCH INSTITUTES MUSEUMS" ],
+      "userAnnotation" : [ "university" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "24_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "Postgraduate Students and Ph.D. Candidates 8255 ",
+      "annotation" : [ "ORG : Postgraduate Students" ],
+      "userAnnotation" : [ "postgraduate" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "23_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "ndergraduate students 2541",
+      "annotation" : [ "DATE : 2541" ],
+      "userAnnotation" : [ "date" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "22_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "PROGRAM MEDICAL DEGREE IN ENGLISH FOREIGN LANGUAGES TEACHING CENTER",
+      "annotation" : [ "ORG : PROGRAM MEDICAL DEGREE, ENGLISH FOREIGN LANGUAGES TEACHING CENTER" ],
+      "userAnnotation" : [ "education programm" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "20_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "POSTGRADUATE",
+      "annotation" : [ ],
+      "userAnnotation" : [ "postgraduate" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "19_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "STUDIES AND DEGREES UNDERGRADUATE PROGRAMS",
+      "annotation" : [ ],
+      "userAnnotation" : [ "education programm" ],
+      "type" : "text"
+    }, {
+      "info" : "text",
+      "id" : "18_text",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "text" : "20/03/2026",
+      "annotation" : [ ],
+      "userAnnotation" : [ "date" ],
+      "type" : "text"
+    } ],
+    "imageList" : [ {
+      "info" : "image",
+      "id" : "1574_image",
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "1574_image.jpg",
+      "text" : "",
+      "annotation" : [ "person" ],
+      "userAnnotation" : [ "person" ],
+      "type" : "image"
+    } ],
+    "mergeList" : [ {
+      "info" : "merge",
+      "id" : "333_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "text",
+        "id" : "20_text",
+        "url" : "https://en.uoa.gr",
+        "imagePath" : "",
+        "text" : "POSTGRADUATE",
+        "annotation" : [ ],
+        "userAnnotation" : [ "postgraduate" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "24_text",
+        "url" : "https://en.uoa.gr",
+        "imagePath" : "",
+        "text" : "Postgraduate Students and Ph.D. Candidates 8255 ",
+        "annotation" : [ "ORG : Postgraduate Students" ],
+        "userAnnotation" : [ "postgraduate" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "41_text",
+        "url" : "https://en.uoa.gr",
+        "imagePath" : "",
+        "text" : "UNIVERSITY OF ATHENS:",
+        "annotation" : [ "ORG : UNIVERSITY OF ATHENS" ],
+        "userAnnotation" : [ "university" ],
+        "type" : "text"
+      } ],
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "annotation" : [ "ORG : Postgraduate Students, UNIVERSITY OF ATHENS" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) POSTGRADUATE, 2) Postgraduate Students and Ph.D. Candidates 8255 , 3) UNIVERSITY OF ATHENS:, "
+    }, {
+      "info" : "merge",
+      "id" : "332_mergeNew",
+      "baseAnnotationList" : [ {
+        "info" : "text",
+        "id" : "25_text",
+        "url" : "https://en.uoa.gr",
+        "imagePath" : "",
+        "text" : "UNIVERSITY RESEARCH INSTITUTES MUSEUMS ",
+        "annotation" : [ "ORG : UNIVERSITY RESEARCH INSTITUTES MUSEUMS" ],
+        "userAnnotation" : [ "university" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "18_text",
+        "url" : "https://en.uoa.gr",
+        "imagePath" : "",
+        "text" : "20/03/2026",
+        "annotation" : [ ],
+        "userAnnotation" : [ "date" ],
+        "type" : "text"
+      }, {
+        "info" : "text",
+        "id" : "19_text",
+        "url" : "https://en.uoa.gr",
+        "imagePath" : "",
+        "text" : "STUDIES AND DEGREES UNDERGRADUATE PROGRAMS",
+        "annotation" : [ ],
+        "userAnnotation" : [ "education programm" ],
+        "type" : "text"
+      } ],
+      "url" : "https://en.uoa.gr",
+      "imagePath" : "",
+      "annotation" : [ "ORG : UNIVERSITY RESEARCH INSTITUTES MUSEUMS" ],
+      "userAnnotation" : [ ],
+      "type" : "mergeNew",
+      "text" : "1) UNIVERSITY RESEARCH INSTITUTES MUSEUMS , 2) 20/03/2026, 3) STUDIES AND DEGREES UNDERGRADUATE PROGRAMS, "
+    } ],
+    "imageAddTextList" : [ ]
+  }
+}
