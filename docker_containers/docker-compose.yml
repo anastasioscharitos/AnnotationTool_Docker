@@ -1,15 +1,12 @@
-
 services:
   python-app:
-    build: ./python-app
-    container_name: python-fastapi
-    
+    container_name: python-container
+    image: ancharitos/annotationtooldockercontainers-python-app:latest
 
   java-app:
-    
-    build: ./java-app
     restart: on-failure
-    container_name: java-vaadin
+    container_name: java-container
+    image: ancharitos/annotationtooldockercontainers-java-app:latest
     depends_on:
       - python-app
     environment:
