@@ -12,10 +12,11 @@ from ultralytics import YOLO, YOLOWorld
 from PIL import Image
 from typing import List, Optional
 import torch
-import spacy
 import clip
+import spacy
 import gc
 from contextlib import asynccontextmanager
+import certifi
 
 #------------Δεδομένα-------
 class UpDateSettingRequest(BaseModel):
@@ -27,6 +28,8 @@ class AnnotateRequest(BaseModel):
     threshold : float = 0.3
     topK : Optional[int] = 5
     text : Optional[str] = None
+    #προσθήκη εδώ
+    ignoreSSL : Optional[bool] = False
 
 #----------Διαχείριση Μνήμης---------
 device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -48,7 +51,7 @@ async def load_default_models(app: FastAPI):
 
     clear_memory()
     models["text"] = spacy.load("en_core_web_sm")
-    models["image"] = YOLO('/app/yolov8n.pt').to(device)
+    models["image"] = YOLO('yolov8n.pt').to(device)
     models["image_name"] = "yolo"
 
     yield
@@ -83,15 +86,14 @@ async def update_settings(data: UpDateSettingRequest):
 
     try:
         if img_choice == "yolo":
-            models["image"] = YOLO('/app/yolov8n.pt').to(device)
+            models["image"] = YOLO('yolov8n.pt').to(device)
         elif img_choice == "yolo_world":
-            models["image"] = YOLOWorld('/app/yolov8s-world.pt').to(device)
+            models["image"] = YOLOWorld('yolov8s-world.pt').to(device)
         elif img_choice == "clip":
             m, p = clip.load("ViT-B/32", device=device)
             models["image"] = {"model": m, "preprocess": p}
-
         else:
-            print(f"error to load model: {img_choice}")
+          #  print(f"error to load model: {img_choice}")
             return {"status": "error", "loaded_models": img_choice}
 
         models["image_name"] = img_choice
@@ -143,8 +145,13 @@ async def annotate(data: AnnotateRequest):
 
         for url in data.urls:
             try:
+                #προσθήκη verify_ssl και στο resp
+                if data.ignoreSSL:
+                    verify_ssl = False
+                else:
+                    verify_ssl = certifi.where()
 
-                resp = session.get(url, headers=headers, timeout=10)
+                resp = session.get(url, headers=headers, timeout=10 , verify=verify_ssl)
                 img_bytes = np.frombuffer(resp.content, np.uint8)
                 img_cv = cv2.imdecode(img_bytes, cv2.IMREAD_COLOR)
 
@@ -172,7 +179,6 @@ async def annotate(data: AnnotateRequest):
 
                     results[url] = final_results
                     del res
-
 
                 elif models["image_name"] == "clip":
                     img_pil = Image.fromarray(cv2.cvtColor(img_cv, cv2.COLOR_BGR2RGB))
@@ -202,7 +208,6 @@ async def annotate(data: AnnotateRequest):
                     del img_pil, img_input, tokens, probs
                     if torch.cuda.is_available():
                         torch.cuda.empty_cache()
-                        
 
                 elif models["image_name"] == "yolo_world":
                     #models["image"].set_classes(data.labels)

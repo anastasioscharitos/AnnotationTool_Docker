@@ -26,6 +26,8 @@ echo [4/4] Open browser
 start http://localhost:8080
 
 echo The web app is running
+echo don' t close this window
+echo press any key to exit
 
 pause
 

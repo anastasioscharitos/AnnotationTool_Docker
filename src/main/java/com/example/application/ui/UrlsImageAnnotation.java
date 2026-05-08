@@ -479,7 +479,7 @@ public class UrlsImageAnnotation extends VerticalLayout {
                         imgUrl.add(url);
                     }
 
-                    DataForAnnotation dataForAnnotation = new DataForAnnotation(imgUrl, serviceData.getStringListWord(), parameters.getThreshold(), parameters.getTopK());
+                    DataForAnnotation dataForAnnotation = new DataForAnnotation(imgUrl, serviceData.getStringListWord(), parameters.getThreshold(), parameters.getTopK(), parameters.isIgnoreSSL());
                     Map<String, List<String>> mapAnnotation = fastAPIManager.annotate("ImageAnnotation", dataForAnnotation);
 
                     if (mapAnnotation.containsKey("timeout")) {

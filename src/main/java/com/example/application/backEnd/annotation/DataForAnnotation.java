@@ -18,6 +18,7 @@ public class DataForAnnotation {
     private float threshold;;
     private int topK;
     private String text;
+    private boolean ignoreSSL;
 
     /**
      * Κατασκευαστής κλάσης
@@ -32,11 +33,12 @@ public class DataForAnnotation {
      * @param threshold κατώφλι
      * @param topK topk
      */
-    public DataForAnnotation(List<String> urls, List<String> labels, float threshold, int topK) {
+    public DataForAnnotation(List<String> urls, List<String> labels, float threshold, int topK, boolean ignoreSSL) {
         this.urls = urls;
         this.labels = labels;
         this.threshold = threshold;
         this.topK = topK;
+        this.ignoreSSL = ignoreSSL;
     }
 
     /**
@@ -120,5 +122,21 @@ public class DataForAnnotation {
      */
     public void setText(String text) {
         this.text = text;
+    }
+
+    /**
+     *
+     * @return επιστρέφει την πρόθεση παράκαμψης του SSL
+     */
+    public boolean isIgnoreSSL() {
+        return ignoreSSL;
+    }
+
+    /**
+     * Αλλαγή της πρόθεσης παράκαμψης του SSL
+     * @param ignoreSSL παράκαμψη του SSL
+     */
+    public void setIgnoreSSL(boolean ignoreSSL) {
+        this.ignoreSSL = ignoreSSL;
     }
 }
