@@ -7,6 +7,7 @@ import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -156,7 +157,7 @@ public class HandledProjects implements Serializable {
      * @param creationDate, ημερομηνία δημιουργίας
      * @return Επιστρέφει true μετά την επιτυχή δημιουργία του αρχείου, διαφορετικά false
      */
-    public boolean createProject(String projectName, LocalDate creationDate){
+    public boolean createProject(String projectName, LocalDate creationDate, String description){
 
         File root = new File(mainDir + projectName);
         if(!root.exists()){
@@ -165,7 +166,7 @@ public class HandledProjects implements Serializable {
 
         loadProject(projectName);
         try {
-            saveDateCreatedFile(creationDate);
+            saveDateCreatedFile(creationDate, description);
         } catch (Exception e) {
             return false;
         }
@@ -278,17 +279,29 @@ public class HandledProjects implements Serializable {
     }
 
     /**
-     * Αποθήκευση της ημερομηνίας δημιουργίας του project στο αρχείο creationDate.txt.
-     * Η ημερομηνία έχει συγκεκριμένη μορφή dd/MM/yyyy και μέσω του BufferWriter γράφεται στο αρχείο
+     * Αποθήκευση της ημερομηνίας δημιουργίας του project στο αρχείο creationDate.txt
+     * και της περιγραφής στο αρχείο description.txt.
+     * Η ημερομηνία έχει συγκεκριμένη μορφή dd/MM/yyyy
      * @param localDateCreated ημερομηνία δημιουργίας
      */
-    private boolean saveDateCreatedFile(LocalDate localDateCreated){
+    private boolean saveDateCreatedFile(LocalDate localDateCreated, String description){
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
+        if(localDateCreated == null || description == null){
+            return false;
+        }
         String formattedDate = localDateCreated.format(myFormatObj);
-        String path = pathMetadata + "creationDate.txt";
-        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(path))){
-            bufferedWriter.write(formattedDate);
+        Path creationDatePath = Paths.get(pathMetadata, "creationDate.txt");
+        Path creationDescriptionPath = Paths.get(pathMetadata, "description.txt");
+//        String path = pathMetadata + "creationDate.txt";
+//        try(BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(path))){
+//            bufferedWriter.write(formattedDate);
+//            return true;
+//        }
+        try{
+            Files.writeString(creationDatePath,formattedDate , StandardCharsets.UTF_8);
+
+            Files.writeString(creationDescriptionPath, description, StandardCharsets.UTF_8);
             return true;
         }
         catch (IOException e){
@@ -299,8 +312,7 @@ public class HandledProjects implements Serializable {
     }
 
     /**
-     * Ανάκτηση της ημερομηνίας δημιουργίας, από το αρχείο δημιουργείται το μονοπάτι
-     * μέχρι το creationDate.txt και διαβάζει απο το αρχείο την ημερομηνία
+     * Ανάκτηση της ημερομηνίας δημιουργίας, από το αρχείο creationDate.txt
      * @param project, το project
      * @return την ημερομηνία δημιουργίας του αρχείου.
      */
@@ -320,6 +332,26 @@ public class HandledProjects implements Serializable {
         }
 
         return creationDate;
+    }
+    /**
+     * Ανάκτηση της περιγραφής του έργου, από το αρχείο description.txt
+     * @param project το έργο
+     * @return την περιγραφή του έργου
+     */
+    public String loadDescription(File project){
+
+        Path path = Paths.get( project.getParent(),  "metadata", "description.txt");
+        String description;
+
+        try{
+            description = Files.readString(path).trim();
+
+        }catch (IOException e){
+            // e.printStackTrace();
+            return null;
+        }
+
+        return description;
     }
 
     /**

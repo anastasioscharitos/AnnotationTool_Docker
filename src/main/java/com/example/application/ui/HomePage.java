@@ -54,6 +54,7 @@ public class HomePage extends VerticalLayout {
     private final HandledLockProject lockProject;
 
     private TextField nameNewProject;
+    private TextField descriptionProject;
     private Button load;
     private Button newProject;
     private Button delete;
@@ -112,16 +113,22 @@ public class HomePage extends VerticalLayout {
         nameNewProject.setAllowedCharPattern("[a-z α-ω A-Z Α-Ω 0-9 . _]");
         nameNewProject.setMaxLength(20);
         nameNewProject.setLabel(getTranslation("HomePage.textField.nameProject"));
+        descriptionProject = new TextField();
+        descriptionProject.setReadOnly(false);
+        descriptionProject.setMaxLength(100);
+        descriptionProject.setWidth("500px");
+        descriptionProject.setLabel(getTranslation("HomePage.description"));
 
         newProject = new Button(getTranslation("HomePage.button.newProject"));
         newProject.addClickListener( e->{
                 project = nameNewProject.getValue();
                 LocalDate creationDate = LocalDate.now();
+            String description = descriptionProject.getValue();
                 if(handledProjects.getProjectName() != null){
                     lockProject.unlockProject(handledProjects.getProjectName());
                 }
 
-                if(checkName(project) && handledProjects.createProject(project, creationDate)){
+                if(checkName(project) && handledProjects.createProject(project, creationDate, description)){
 
                     if(serviceData.initProjectData()){
 
@@ -157,8 +164,11 @@ public class HomePage extends VerticalLayout {
                     serviceData.initProjectData();
                 }
         });
+        HorizontalLayout tempLayout = new HorizontalLayout();
+        tempLayout.add(nameNewProject, descriptionProject);
 
-        layout.add(title, nameNewProject, newProject);
+       // layout.add(title, nameNewProject, newProject);
+        layout.add(title, tempLayout, newProject);
 
         return layout;
     }
@@ -306,6 +316,10 @@ public class HomePage extends VerticalLayout {
         gridFile.addThemeVariants(GridVariant.LUMO_COLUMN_BORDERS, GridVariant.LUMO_ROW_STRIPES);
         gridFile.setEmptyStateText(getTranslation("HomePage.grid.Notification"));
         gridFile.addColumn(File::getName).setHeader(getTranslation("HomePage.grid.nameProject")).setSortable(true);
+        gridFile.addColumn(file -> {
+            String description = handledProjects.loadDescription(file);
+            return description;
+        }).setHeader(getTranslation("HomePage.description"));
         gridFile.addColumn(file -> {
             LocalDate creationDate = handledProjects.loadCreationDate(file);
             if(creationDate !=  null) {
