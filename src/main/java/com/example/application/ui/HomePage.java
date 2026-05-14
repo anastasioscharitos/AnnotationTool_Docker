@@ -100,7 +100,7 @@ public class HomePage extends VerticalLayout {
 
     /**
      * Σε αυτήν την κλάση δημιουργείται ένα layout το οποίο ο χρήστης μπορεί να δημιουργήσει
-     * ένα νέο έργο. Το όνομα του έργου πρέπει να περιέχει μόνο τους χαρακτήρες a-z α-ω A-Z Α-Ω 0-9 ._
+     * ένα νέο έργο. Το όνομα του έργου πρέπει να περιέχει μόνο τους χαρακτήρες a-z α-ω A-Z Α-Ω 0-9 ._-
      * Αν δεν μπορεί να δημιουργηθεί το έργο εμφανίζεται μήνυμα στην οθόνη.
      * @param layout το προς διαμόρφωση layout
      * @return το διαμορφωμένο layout
@@ -110,7 +110,7 @@ public class HomePage extends VerticalLayout {
 
         nameNewProject = new TextField();
         nameNewProject.setReadOnly(false);
-        nameNewProject.setAllowedCharPattern("[a-z α-ω A-Z Α-Ω 0-9 . _]");
+        nameNewProject.setAllowedCharPattern("[\\p{isGreek}a-zA-Z0-9 . _\\-]");
         nameNewProject.setMaxLength(20);
         nameNewProject.setLabel(getTranslation("HomePage.textField.nameProject"));
         descriptionProject = new TextField();

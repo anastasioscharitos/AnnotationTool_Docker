@@ -159,7 +159,8 @@ public class HandledProjects implements Serializable {
      */
     public boolean createProject(String projectName, LocalDate creationDate, String description){
 
-        File root = new File(mainDir + projectName);
+        Path path = Paths.get(mainDir,projectName);
+        File root = new File(path.toUri());
         if(!root.exists()){
             root.mkdir();
         }
