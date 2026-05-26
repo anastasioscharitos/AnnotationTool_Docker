@@ -495,15 +495,31 @@ public class UrlsImageAnnotation extends VerticalLayout {
                         grid.deselectAll();
                         return;
                     }
+
+                    boolean hasErrorSSL = false;
                     for (WebPageImage webPageImage : imageSelected) {
                         String url = webPageImage.getImagePath();
                         if (mapAnnotation.containsKey(url)) {
+                            if (mapAnnotation.get(url).stream().anyMatch(s ->
+                                s.startsWith("Error")
+                            )) {
+                                hasErrorSSL = true;
+                                webPageImage.setAnnotation(List.of(getTranslation("UrlsImageAnnotation.ErrorSSL")));
+                                dataProvider.refreshItem(webPageImage);
+                                continue;
+                            }
                             webPageImage.setAnnotation(mapAnnotation.get(url));
                             dataProvider.refreshItem(webPageImage);
                         }
                     }
-                    Notification notification = Notification.show(getTranslation("UrlsImageAnnotation.selectedImage"), 3000, Notification.Position.BOTTOM_START);
-                    notification.addThemeVariants(NotificationVariant.LUMO_PRIMARY);
+                    if(hasErrorSSL){
+                        Notification notification = Notification.show(getTranslation("UrlsImageAnnotation.exceptionSSL"), 4000, Notification.Position.BOTTOM_START);
+                        notification.addThemeVariants(NotificationVariant.LUMO_WARNING);
+                    }
+                    else {
+                        Notification notification = Notification.show(getTranslation("UrlsImageAnnotation.selectedImage"), 3000, Notification.Position.BOTTOM_START);
+                        notification.addThemeVariants(NotificationVariant.LUMO_PRIMARY);
+                    }
                 }
                 grid.deselectAll();
             }
