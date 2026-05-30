@@ -26,6 +26,8 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.provider.ListDataProvider;
 import com.vaadin.flow.data.renderer.ComponentRenderer;
+import com.vaadin.flow.router.BeforeLeaveEvent;
+import com.vaadin.flow.router.BeforeLeaveObserver;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.theme.lumo.LumoIcon;
@@ -45,7 +47,7 @@ import java.util.Set;
  * 3) Εμφάνιση των επισημάνσεων συγχώνευσης.
  */
 @Route(value =  LoadData.ROUTE , layout = MainLayout.class)
-public class LoadData extends VerticalLayout {
+public class LoadData extends VerticalLayout implements BeforeLeaveObserver {
 
     @Serial
     private static final long serialVersionUID = 1L;
@@ -497,6 +499,89 @@ public class LoadData extends VerticalLayout {
         } else {
             Notification notification = Notification.show(getTranslation("LoadData.dialogNotification.notSave"),3000, Notification.Position.BOTTOM_START);
             notification.addThemeVariants(NotificationVariant.LUMO_WARNING);
+        }
+    }
+    /**
+     * Πριν την αποχώρηση από το view. Ειδοποιείται ο χρήστης αν θέλει να αποθηκεύσει
+     * τις επισημάνεις που έχει πραγματοποιήσει.
+     * @param event BeforeLeaveEvent
+     */
+    @Override
+    public void beforeLeave(BeforeLeaveEvent event) {
+        if (!dataProvider.getItems().isEmpty()) {
+
+            BeforeLeaveEvent.ContinueNavigationAction action = event.postpone();
+
+            Dialog dialog = new Dialog();
+            dialog.setDraggable(true);
+            dialog.setCloseOnEsc(true);
+            dialog.setHeaderTitle(getTranslation("LoadData.Notification.saveChanges"));
+
+            VerticalLayout layout = new VerticalLayout();
+
+            Span msg = new Span();
+            msg.setText(getTranslation("LoadData.Notification.saveChanges.Question"));
+
+            layout.setPadding(true);
+            layout.setSpacing(true);
+            layout.setWidth("400px");
+
+            layout.add(msg);
+
+            dialog.add(layout);
+
+            Button yesButton = new Button(getTranslation("LoadData.Notification.saveChanges.Yes"));
+            yesButton.addThemeVariants(ButtonVariant.LUMO_SUCCESS);
+            yesButton.addClickListener(click -> {
+                if (grid.getSelectedItems().isEmpty()) {
+                    Dialog alert = new Dialog();
+                    alert.setHeaderTitle(getTranslation("LoadData.Notification.saveChanges.Inability"));
+
+                    VerticalLayout alertLayout = new VerticalLayout();
+                    Span alertMsg = new Span(getTranslation("LoadData.Notification.saveChanges.Inability.Continue"));
+                    alertLayout.setPadding(true);
+                    alertLayout.setSpacing(true);
+                    alertLayout.setWidth("200px");
+                    alertLayout.add(alertMsg);
+                    alert.add(alertLayout);
+
+                    Button OKButton = new Button("OK");
+                    OKButton.addClickListener(clickOK -> {
+                        alert.close();
+                        dialog.close();
+                        action.cancel();
+                    });
+                    OKButton.addThemeVariants(ButtonVariant.LUMO_WARNING);
+
+                    alert.getFooter().add(OKButton);
+                    alert.open();
+                }
+                else{
+                    save.click();
+                    dialog.close();
+                    action.proceed();
+                }
+            });
+
+            Button noButton = new Button(getTranslation("LoadData.Notification.saveChanges.Continue"));
+            noButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
+            noButton.addClickListener(click -> {
+                dialog.close();
+                action.proceed();
+            });
+
+            Button cancelButton = new Button("Cancel");
+            cancelButton.addThemeVariants(ButtonVariant.LUMO_WARNING);
+            cancelButton.addClickListener(click-> {
+                dialog.close();
+                action.cancel();
+            });
+
+            dialog.getFooter().add(yesButton);
+            dialog.getFooter().add(noButton);
+            dialog.getFooter().add(cancelButton);
+
+            dialog.open();
         }
     }
 }

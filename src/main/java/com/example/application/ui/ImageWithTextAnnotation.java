@@ -33,6 +33,8 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.binder.Binder;
 import com.vaadin.flow.data.provider.ListDataProvider;
+import com.vaadin.flow.router.BeforeLeaveEvent;
+import com.vaadin.flow.router.BeforeLeaveObserver;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.theme.lumo.LumoIcon;
 
@@ -45,7 +47,7 @@ import java.util.*;
  * τη λεζάντα της εικόνας για επισήμανση κειμένου.
  */
 @Route(value = ImageWithTextAnnotation.ROUTE, layout = MainLayout.class)
-public class ImageWithTextAnnotation extends VerticalLayout {
+public class ImageWithTextAnnotation extends VerticalLayout implements BeforeLeaveObserver {
 
     @Serial
     private static final long serialVersionUID = 1L;
@@ -556,16 +558,22 @@ public class ImageWithTextAnnotation extends VerticalLayout {
                 boolean flagSave = true;
 
                 for (BaseAnnotation b : base) {
-                    if(b.getImagePath().startsWith("http")) {
-                        String path = jsonFile.saveImage((WebPageImageAddText) b, parameters.isIgnoreSSL());
+                    WebPageImageAddText webPageImageAddText = (WebPageImageAddText) b;
+                    if(webPageImageAddText.getImagePath().startsWith("http")) {
+                        String path = jsonFile.saveImage(webPageImageAddText, parameters.isIgnoreSSL());
                         if (path.equals("false")) {
                             Notification notification = Notification.show(getTranslation("ImageWithText.errorSaveImage"),3000, Notification.Position.BOTTOM_START);
                             notification.addThemeVariants(NotificationVariant.LUMO_ERROR);
-                            grid.deselectAll();
+                            //grid.deselectAll();
                             flagSave = false;
                             continue;
                         }
-                        ((WebPageImageAddText) b).setImagePath(path);
+                        else{
+                            Notification notification = Notification.show(getTranslation("ImageWithText.saveChanges"),3000, Notification.Position.BOTTOM_START);
+                            notification.addThemeVariants(NotificationVariant.LUMO_SUCCESS);
+                        }
+                        webPageImageAddText.setImagePath(path);
+                        dataProvider.refreshItem(webPageImageAddText);
                     }
                 }
 
@@ -594,13 +602,14 @@ public class ImageWithTextAnnotation extends VerticalLayout {
      */
     private Component zoomImage(WebPageImageAddText  item){
         Image image = new Image();
-        if(item.getImagePath().equals("") || !item.getImagePath().startsWith("http")){
+        if(item.getImagePath() == null || item.getImagePath().isBlank()){
             Icon icon = LumoIcon.PHOTO.create();
             return icon;
         }
         String path = item.getImagePath();
+        String projectName = handledProjects.getProjectName();
         if(!path.startsWith("http")) {
-            path =  "/images/" + item.getImagePath();
+            path =  "/images/" + projectName + "/" + item.getImagePath();
         }
 
         image.setSrc(path);
@@ -616,8 +625,9 @@ public class ImageWithTextAnnotation extends VerticalLayout {
             dialog.setCloseOnOutsideClick(true);
             dialog.setDraggable(true);
             String path_ = item.getImagePath();
+            String projectName_ = handledProjects.getProjectName();
             if(!path_.startsWith("http")) {
-                path_ =  "/images/" + item.getImagePath();
+                path_ =  "/images/" +projectName_ + "/"+ item.getImagePath();
             }
             Image  zoomImg = new Image(path_, "Full view");
             zoomImg.setWidth("600px");
@@ -656,4 +666,87 @@ public class ImageWithTextAnnotation extends VerticalLayout {
         }
     }
 
+    /**
+     * Πριν την αποχώρηση από το view. Ειδοποιείται ο χρήστης αν θέλει να αποθηκεύσει
+     * τις επισημάνεις που έχει πραγματοποιήσει.
+     * @param event BeforeLeaveEvent
+     */
+    @Override
+    public void beforeLeave(BeforeLeaveEvent event) {
+        if (!dataProvider.getItems().isEmpty()) {
+
+            BeforeLeaveEvent.ContinueNavigationAction action = event.postpone();
+
+            Dialog dialog = new Dialog();
+            dialog.setDraggable(true);
+            dialog.setCloseOnEsc(true);
+            dialog.setHeaderTitle(getTranslation("ImageWithText.Notification.saveChanges"));
+
+            VerticalLayout layout = new VerticalLayout();
+
+            Span msg = new Span();
+            msg.setText(getTranslation("ImageWithText.Notification.saveChanges.Question"));
+
+            layout.setPadding(true);
+            layout.setSpacing(true);
+            layout.setWidth("400px");
+
+            layout.add(msg);
+
+            dialog.add(layout);
+
+            Button yesButton = new Button(getTranslation("ImageWithText.Notification.saveChanges.Yes"));
+            yesButton.addThemeVariants(ButtonVariant.LUMO_SUCCESS);
+            yesButton.addClickListener(click -> {
+                if (grid.getSelectedItems().isEmpty()) {
+                    Dialog alert = new Dialog();
+                    alert.setHeaderTitle(getTranslation("ImageWithText.Notification.saveChanges.Inability"));
+
+                    VerticalLayout alertLayout = new VerticalLayout();
+                    Span alertMsg = new Span(getTranslation("ImageWithText.Notification.saveChanges.Inability.Continue"));
+                    alertLayout.setPadding(true);
+                    alertLayout.setSpacing(true);
+                    alertLayout.setWidth("200px");
+                    alertLayout.add(alertMsg);
+                    alert.add(alertLayout);
+
+                    Button OKButton = new Button("OK");
+                    OKButton.addClickListener(clickOK -> {
+                        alert.close();
+                        dialog.close();
+                        action.cancel();
+                    });
+                    OKButton.addThemeVariants(ButtonVariant.LUMO_WARNING);
+
+                    alert.getFooter().add(OKButton);
+                    alert.open();
+                }
+                else{
+                    saveChanges.click();
+                    dialog.close();
+                    action.proceed();
+                }
+            });
+
+            Button noButton = new Button(getTranslation("ImageWithText.Notification.saveChanges.Continue"));
+            noButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
+            noButton.addClickListener(click -> {
+                dialog.close();
+                action.proceed();
+            });
+
+            Button cancelButton = new Button("Cancel");
+            cancelButton.addThemeVariants(ButtonVariant.LUMO_WARNING);
+            cancelButton.addClickListener(click-> {
+                dialog.close();
+                action.cancel();
+            });
+
+            dialog.getFooter().add(yesButton);
+            dialog.getFooter().add(noButton);
+            dialog.getFooter().add(cancelButton);
+
+            dialog.open();
+        }
+    }
 }

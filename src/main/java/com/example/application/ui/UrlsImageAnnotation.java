@@ -29,6 +29,8 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.data.provider.ListDataProvider;
+import com.vaadin.flow.router.BeforeLeaveEvent;
+import com.vaadin.flow.router.BeforeLeaveObserver;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.theme.lumo.LumoIcon;
 
@@ -43,7 +45,7 @@ import java.util.*;
  * από μια λίστα ετικετών. Τέλος, τα αποτελέσματα αποθηκεύονται τοπικά.
  */
 @Route(value = UrlsImageAnnotation.ROUTE, layout = MainLayout.class)
-public class UrlsImageAnnotation extends VerticalLayout {
+public class UrlsImageAnnotation extends VerticalLayout implements BeforeLeaveObserver {
 
     @Serial
     private static final long serialVersionUID = 1L;
@@ -550,12 +552,14 @@ public class UrlsImageAnnotation extends VerticalLayout {
                 List<BaseAnnotation> base = new ArrayList<>(selectionForSave);
                 boolean flagSave = true;
                 for (BaseAnnotation b : base) {
-                    if(b.getImagePath().startsWith("http")) {
-                        String path = jsonFile.saveImage((WebPageImage) b, parameters.isIgnoreSSL());
+                    WebPageImage webPageImage = (WebPageImage) b;
+
+                    if(webPageImage.getImagePath().startsWith("http")) {
+                        String path = jsonFile.saveImage(webPageImage, parameters.isIgnoreSSL());
                         if (path.equals("false")) {
                             Notification notification = Notification.show(getTranslation("UrlsImageAnnotation.errorSaveChanges"),3000, Notification.Position.BOTTOM_START);
                             notification.addThemeVariants(NotificationVariant.LUMO_ERROR);
-                            grid.deselectAll();
+                            //grid.deselectAll();
                             flagSave = false;
                             continue;
                         }
@@ -563,16 +567,9 @@ public class UrlsImageAnnotation extends VerticalLayout {
                             Notification notification = Notification.show(getTranslation("UrlsImageAnnotation.saveChanges"),3000, Notification.Position.BOTTOM_START);
                             notification.addThemeVariants(NotificationVariant.LUMO_SUCCESS);
                         }
-                        ((WebPageImage) b).setImagePath(path);
+                        webPageImage.setImagePath(path);
+                        dataProvider.refreshItem(webPageImage);
                     }
-                    else{
-                        Notification notification = Notification.show(getTranslation("UrlsImageAnnotation.errorSaveChanges"),3000, Notification.Position.BOTTOM_START);
-                        notification.addThemeVariants(NotificationVariant.LUMO_ERROR);
-                        grid.deselectAll();
-                        flagSave = false;
-                    }
-
-
                 }
 
                 if (flagSave && jsonFile.saveBaseAnnotationNew(base)) {
@@ -600,6 +597,7 @@ public class UrlsImageAnnotation extends VerticalLayout {
      */
     private Component zoomImage(WebPageImage  item){
         Image image = new Image();
+        String projectName = handledProjects.getProjectName();
         String path = item.getImagePath();
         if(path == null || path.isBlank() ){
             Icon icon = LumoIcon.PHOTO.create();
@@ -607,7 +605,7 @@ public class UrlsImageAnnotation extends VerticalLayout {
         }
 
         if(!path.startsWith("http")) {
-            path =  "/images/" + item.getImagePath();
+            path =  "/images/" + projectName + "/" + item.getImagePath();
         }
 
         image.setSrc(path);
@@ -623,8 +621,9 @@ public class UrlsImageAnnotation extends VerticalLayout {
             dialog.setCloseOnOutsideClick(true);
             dialog.setDraggable(true);
             String path_ = item.getImagePath();
+            String projectName_ = handledProjects.getProjectName();
             if(!path_.startsWith("http")) {
-                path_ =  "/images/" + item.getImagePath();
+                path_ =  "/images/" + projectName_ + "/" + item.getImagePath();
             }
             Image  zoomImg = new Image(path_, "Full view");
             zoomImg.setWidth("600px");
@@ -762,6 +761,90 @@ public class UrlsImageAnnotation extends VerticalLayout {
         } else {
             Notification notification = Notification.show(getTranslation("UrlsImageAnnotation.dialogNotification.notSave"),3000, Notification.Position.BOTTOM_START);
             notification.addThemeVariants(NotificationVariant.LUMO_WARNING);
+        }
+    }
+
+    /**
+     * Πριν την αποχώρηση από το view. Ειδοποιείται ο χρήστης αν θέλει να αποθηκεύσει
+     * τις επισημάνεις που έχει πραγματοποιήσει.
+     * @param event BeforeLeaveEvent
+     */
+    @Override
+    public void beforeLeave(BeforeLeaveEvent event) {
+        if (!dataProvider.getItems().isEmpty()) {
+
+            BeforeLeaveEvent.ContinueNavigationAction action = event.postpone();
+
+            Dialog dialog = new Dialog();
+            dialog.setDraggable(true);
+            dialog.setCloseOnEsc(true);
+            dialog.setHeaderTitle(getTranslation("UrlsImageAnnotation.Notification.saveChanges"));
+
+            VerticalLayout layout = new VerticalLayout();
+
+            Span msg = new Span();
+            msg.setText(getTranslation("UrlsImageAnnotation.Notification.saveChanges.Question"));
+
+            layout.setPadding(true);
+            layout.setSpacing(true);
+            layout.setWidth("400px");
+
+            layout.add(msg);
+
+            dialog.add(layout);
+
+            Button yesButton = new Button(getTranslation("UrlsImageAnnotation.Notification.saveChanges.Yes"));
+            yesButton.addThemeVariants(ButtonVariant.LUMO_SUCCESS);
+            yesButton.addClickListener(click -> {
+                if (grid.getSelectedItems().isEmpty()) {
+                    Dialog alert = new Dialog();
+                    alert.setHeaderTitle(getTranslation("UrlsImageAnnotation.Notification.saveChanges.Inability"));
+
+                    VerticalLayout alertLayout = new VerticalLayout();
+                    Span alertMsg = new Span(getTranslation("UrlsImageAnnotation.Notification.saveChanges.Inability.Continue"));
+                    alertLayout.setPadding(true);
+                    alertLayout.setSpacing(true);
+                    alertLayout.setWidth("200px");
+                    alertLayout.add(alertMsg);
+                    alert.add(alertLayout);
+
+                    Button OKButton = new Button("OK");
+                    OKButton.addClickListener(clickOK -> {
+                        alert.close();
+                        dialog.close();
+                        action.cancel();
+                    });
+                    OKButton.addThemeVariants(ButtonVariant.LUMO_WARNING);
+
+                    alert.getFooter().add(OKButton);
+                    alert.open();
+                }
+                else{
+                    saveChanges.click();
+                    dialog.close();
+                    action.proceed();
+                }
+            });
+
+            Button noButton = new Button(getTranslation("UrlsImageAnnotation.Notification.saveChanges.Continue"));
+            noButton.addThemeVariants(ButtonVariant.LUMO_PRIMARY);
+            noButton.addClickListener(click -> {
+                dialog.close();
+                action.proceed();
+            });
+
+            Button cancelButton = new Button("Cancel");
+            cancelButton.addThemeVariants(ButtonVariant.LUMO_WARNING);
+            cancelButton.addClickListener(click-> {
+                dialog.close();
+                action.cancel();
+            });
+
+            dialog.getFooter().add(yesButton);
+            dialog.getFooter().add(noButton);
+            dialog.getFooter().add(cancelButton);
+
+            dialog.open();
         }
     }
 
